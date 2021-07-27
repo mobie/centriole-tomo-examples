@@ -109,8 +109,9 @@ if len(a) < 1:
 joinfiles=[]
 badfiles = False
 
+
 for xlfile in a:
-    
+    skip=False
     with open(patientjson) as f:
         patients = json.load(f)
 # xlfile = a[0]
@@ -199,6 +200,7 @@ for xlfile in a:
             if not os.path.exists(n5file):
                 print('adding '+infile+ ' to list of files to convert.')
                 joinfiles.append(patient+'/'+infile)
+                skip = True
                 continue
             
             # move n5
@@ -343,11 +345,11 @@ for xlfile in a:
                     is_exclusive = True,
                     menu_name = 'Centrioles',
                     source_transforms = [affine_trafo,                                         
-                                         ])
+                                         crop])
             
-            # XXXXXXXXXXXXXX
-            # manual for now...            
-            cview['sourceTransforms'].append(crop)
+            # # XXXXXXXXXXXXXX
+            # # manual for now...            
+            # cview['sourceTransforms'].append(crop)
             
         
             mm.add_view_to_dataset(dataset_folder = datadir,                                       
@@ -356,8 +358,9 @@ for xlfile in a:
             
             
         del(mfile)
-        
-    with open(patientjson,'w') as f:
+   
+    if not skip:   
+        with open(patientjson,'w') as f:
             patients = json.dump(patients,f, indent=4, sort_keys=True)
     
 if not badfiles:

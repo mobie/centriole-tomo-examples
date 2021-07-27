@@ -32,8 +32,9 @@ bdv_unit = 'um'
 zstretch = 1
 timept = 0
 
-submit_interval = 3 # time to wait between submitting jobs to not overload the group share IO
-break_interval = 60
+submit_interval = 2 # time to wait between submitting jobs to not overload the group share IO
+blocksize = 8
+break_interval = 30
 
 
 outformat='.n5'
@@ -81,7 +82,7 @@ for file in joinlist:
         #continue
     idx += 1
     
-    if idx%10 == 0:
+    if idx%blocksize == 0:
         time.sleep(break_interval)
     else:
         time.sleep(submit_interval)
