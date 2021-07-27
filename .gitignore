@@ -1,0 +1,8 @@
+*.n5/
+tmp*/
+__pycache__/
+.*tore
+patients.json
+Tabellen/
+data/**/_*
+*_join*
