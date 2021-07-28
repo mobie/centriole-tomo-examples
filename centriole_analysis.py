@@ -82,6 +82,8 @@ def cropvals(v1,v2,ax, minwindow=0.3,pxs=0.1):
 # load Excel file
 
 strain = sys.argv[1] #'B-CLL'
+
+
 indir = './Tabellen'
 datadir = './data/tomo/'
 imagedir = os.path.join(datadir,'images','bdv-n5')

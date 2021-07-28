@@ -34,7 +34,7 @@ timept = 0
 
 submit_interval = 2 # time to wait between submitting jobs to not overload the group share IO
 blocksize = 8
-break_interval = 30
+break_interval = 40
 
 
 outformat='.n5'
