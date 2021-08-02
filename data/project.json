@@ -1,9 +1,12 @@
 {
-  "datasets": ["tomo"],
-  "imageDataFormats": [
-    "bdv.n5"
+  "datasets": [
+    "tomo"
   ],
-	"defaultDataset": "tomo",
-  "myeloma centriole dataset.": "myeloma centriole dataset.",
+  "defaultDataset": "tomo",
+  "description": "myeloma centriole dataset.",
+  "imageDataFormats": [
+    "bdv.n5",
+    "bdv.n5.s3"
+  ],
   "specVersion": "0.2.0"
 }
