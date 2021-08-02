@@ -1,0 +1,35 @@
+<SpimData version="0.2">
+  <BasePath type="relative">.</BasePath>
+  <SequenceDescription>
+    <ViewSetups>
+      <ViewSetup>
+        <id>0</id>
+        <name>CTRL_07_Grid3_c377</name>
+        <size>2024 2024 440</size>
+        <voxelSize>
+          <unit>um</unit>
+          <size>0.0015578000068664551 0.0015578000068664551 0.0015578000068664551</size>
+        </voxelSize>
+        <attributes />
+      </ViewSetup>
+    </ViewSetups>
+    <Timepoints type="range">
+      <first>0</first>
+      <last>0</last>
+    </Timepoints>
+    <ImageLoader format="bdv.n5.s3">
+      <Key>tomo/images/bdv-n5/CTRL/CTRL_07_Grid3_c377.n5</Key>
+      <SigningRegion>us-west-2</SigningRegion>
+      <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
+      <BucketName>centriole-tomo-datasets</BucketName>
+    </ImageLoader>
+  </SequenceDescription>
+  <ViewRegistrations>
+    <ViewRegistration setup="0" timepoint="0">
+      <ViewTransform type="affine">
+        <affine>0.0015578000068664551 0.0 0.0 0.0 0.0 0.0015578000068664551 0.0 0.0 0.0 0.0 0.0015578000068664551 0.0</affine>
+        <name>Scaling</name>
+      </ViewTransform>
+    </ViewRegistration>
+  </ViewRegistrations>
+</SpimData>
