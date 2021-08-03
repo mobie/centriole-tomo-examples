@@ -88,7 +88,7 @@ indir = './Tabellen'
 datadir = './data/tomo/'
 imagedir = os.path.join(datadir,'images','bdv-n5')
 joindir = '../Tomography/joined/'
-
+xmldir = 'xml_orig'
 
 
 patientjson = './patients.json'
@@ -212,7 +212,7 @@ for xlfile in a:
 
         
         # change link in XML
-        xmlfile = os.path.join(imagedir,strain,'_'+patient+'_'+infile+'.xml')       
+        xmlfile = os.path.join(xmldir,strain,'_'+patient+'_'+infile+'.xml')       
         
         newxml = os.path.join(imagedir,newid+'_'+infile+'.xml') 
               
