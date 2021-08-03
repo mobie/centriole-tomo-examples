@@ -137,8 +137,13 @@ for xlfile in a:
         newid = entity_pat[patient]
     else: 
         if len(entity_pat)>0:
-            last_id = list(entity_pat.values())[-1]
-            newid = strain + '_' + str(int(last_id.split('_')[1])+1).zfill(ndigits)
+            
+            pat_id=[]
+            for item in entity_pat:
+                pat_id.append(int(entity_pat[item].split('_')[1]))
+            
+            last_id = max(pat_id)
+            newid = strain + '_' + str(last_id+1).zfill(ndigits)
         else:
             newid = strain + '_' + '0'.zfill(ndigits)
     
