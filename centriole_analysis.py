@@ -100,7 +100,7 @@ ndigits = 2
 
 
 
-a=glob.glob(os.path.join(indir,strain,'*'))
+a=glob.glob(os.path.join(indir,strain,'*xlsx'))
 
 # if len(a) > 1:
 #     raise IndexError('more than one file found')
@@ -212,7 +212,7 @@ for xlfile in a:
 
         
         # change link in XML
-        xmlfile = os.path.join(xmldir,strain,'_'+patient+'_'+infile+'.xml')       
+        xmlfile = os.path.join(xmldir,'_'+patient+'_'+infile+'.xml')       
         
         newxml = os.path.join(imagedir,newid+'_'+infile+'.xml') 
               
@@ -266,7 +266,7 @@ for xlfile in a:
         filelabels = [c_id[i] for i in filerows]
     
         lenrows = [item for item in filerows if 'length' in c_id[item]]
-    
+        
         numcent = np.unique([c_id[i] for i in lenrows])
     
         for cent in numcent:
