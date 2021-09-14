@@ -88,7 +88,7 @@ indir = './Tabellen'
 datadir = './data/tomo/'
 imagedir = os.path.join(datadir,'images','bdv-n5')
 joindir = '../Tomography/joined/'
-xmldir = 'xml_orig'
+
 
 
 patientjson = './patients.json'
@@ -100,7 +100,7 @@ ndigits = 2
 
 
 
-a=glob.glob(os.path.join(indir,strain,'*xlsx'))
+a=glob.glob(os.path.join(indir,strain,'*'))
 
 # if len(a) > 1:
 #     raise IndexError('more than one file found')
@@ -137,13 +137,8 @@ for xlfile in a:
         newid = entity_pat[patient]
     else: 
         if len(entity_pat)>0:
-            
-            pat_id=[]
-            for item in entity_pat:
-                pat_id.append(int(entity_pat[item].split('_')[1]))
-            
-            last_id = max(pat_id)
-            newid = strain + '_' + str(last_id+1).zfill(ndigits)
+            last_id = list(entity_pat.values())[-1]
+            newid = strain + '_' + str(int(last_id.split('_')[1])+1).zfill(ndigits)
         else:
             newid = strain + '_' + '0'.zfill(ndigits)
     
@@ -217,7 +212,7 @@ for xlfile in a:
 
         
         # change link in XML
-        xmlfile = os.path.join(xmldir,'_'+patient+'_'+infile+'.xml')       
+        xmlfile = os.path.join(imagedir,strain,'_'+patient+'_'+infile+'.xml')       
         
         newxml = os.path.join(imagedir,newid+'_'+infile+'.xml') 
               
@@ -271,7 +266,7 @@ for xlfile in a:
         filelabels = [c_id[i] for i in filerows]
     
         lenrows = [item for item in filerows if 'length' in c_id[item]]
-        
+    
         numcent = np.unique([c_id[i] for i in lenrows])
     
         for cent in numcent:
