@@ -3,7 +3,7 @@
     "tomo"
   ],
   "defaultDataset": "tomo",
-  "description": "myeloma centriole dataset.",
+  "description": "Centriole morphology dataset.",
   "imageDataFormats": [
     "bdv.n5.s3",
     "bdv.n5"

@@ -347,7 +347,7 @@ for xlfile in a:
             
             cview = mm.get_view(names = [centname],
                     source_types = ['image'],
-                    sources = [[sourcename]],
+                    sources = [[centname + "_crop"]],
                     display_settings = [disp1],
                     is_exclusive = True,
                     menu_name = 'Centrioles',
