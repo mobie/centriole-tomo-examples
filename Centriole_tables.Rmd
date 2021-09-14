@@ -1,0 +1,319 @@
+---
+title: "Tables for subsequent statistical analysis of centriole characteristics"
+author: "Tobias Dittrich"
+date: 'created on 2021-09-03, updated `r paste(Sys.Date())`'
+output: html_document
+params:
+  em.data:
+    input: file
+    label: 'Input EM data:'
+    value: measures.xlsx
+  produce.tables:
+    input: checkbox
+    label: 'produce xlsx tables'
+    value: FALSE
+  pix.size:
+    input: numeric
+    label: Pixel size (nm)
+    value: 1.5544
+  printcode:
+    label: 'Display Code:'
+    value: no
+  printmessages:
+    label: 'Display Messages:'
+    value: no
+  printwarnings:
+    label: 'Display Warnings:'
+    value: no
+  valid.obj:
+    input: text
+    label: Valid object names
+    value: length,diam,app,ph
+  valid.sub1:
+    input: text
+    label: Valid sub1 names
+    value: prox,mid,dist,incomplete,asymmetric,broken,partial
+  valid.sub2:
+    input: text
+    label: Valid sub2 names
+    value: partial
+---
+
+```{r load packages, include=FALSE, echo=FALSE, warning=FALSE}
+library(tidyverse)
+library(data.table)
+library(readxl)
+library(kableExtra)
+library(knitr)
+library(StereoMorph)
+library(openxlsx)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = params$printcode, warning = params$printwarnings, message = params$printmessages, results = 'asis')
+
+calc.angle <- function(x,y){
+  dot.prod <- x%*%y 
+  norm.x <- norm(x,type="2")
+  norm.y <- norm(y,type="2")
+  theta <- acos(dot.prod / (norm.x * norm.y))
+  as.numeric(theta*180/pi)
+} #angle function
+```
+
+###Load EM data and identify invalid objects
+```{r load em data and proof, results='markup'}
+# load EM-data
+dat_em <- data.table(read_excel(params$em.data, sheet="data", col_names = TRUE)) 
+
+#split object names
+splits <- max(lengths(strsplit(dat_em$object_name, ".", fixed = TRUE)))
+objectnames <- c("centriole", "obj", "obj_sub1", "obj_sub2")
+dat_em_mod <- dat_em[, objectnames[1:splits] := tstrsplit(object_name, ".", fixed = TRUE, fill = NA)
+               ][,":="(
+                 centriole_N = as.numeric(gsub("[^0-9]","",centriole)),
+                 centriole_ID = paste(c_label, as.numeric(gsub("[^0-9]","",centriole)), sep = "_"),
+                 ID = parent1_name
+                 )]
+for(i in 1:4) {
+  if(splits<i){
+  dat_em_mod <- dat_em_mod[, objectnames[i] := NA]
+}}
+
+#identify invalid object names and generate table with invalid objects
+valid <- list(
+  obj = strsplit(params$valid.obj,",")[[1]],
+  sub1 = strsplit(params$valid.sub1,",")[[1]],
+  sub2 = strsplit(params$valid.sub2,",")[[1]]
+)
+
+dat_em_mod <- dat_em_mod[,":="(
+  obj.invalid = ifelse(!obj %in% valid$obj | is.na(obj), TRUE, FALSE),
+  sub1.invalid = ifelse(!obj_sub1 %in% valid$sub1 & is.na(as.numeric(obj_sub1)) & !is.na(obj_sub1),TRUE,FALSE),
+  sub2.invalid = ifelse(!obj_sub2 %in% valid$sub2 & !is.na(obj_sub2),TRUE,FALSE),
+  app.invalid = ifelse((obj %in% "app" & (!points %in% 3 | is.na(points))), TRUE, FALSE),
+  length.invalid = ifelse(obj %in% "length" & points < 2, TRUE, FALSE),
+  proxdiam.missing = !centriole_ID %in% dat_em[obj %in% "diam" & obj_sub1 %in% "prox",centriole_ID]
+  )][,invalid := ifelse(obj.invalid | sub1.invalid | sub2.invalid | app.invalid | length.invalid | proxdiam.missing, TRUE,FALSE)]
+
+dat_em_invalid <- dat_em_mod[invalid==TRUE, .SD, .SDcols= !c("invalid")]
+
+#remove invalid objects
+dat_em_mod <- dat_em_mod[invalid==FALSE]
+
+#add type mother or dautghter, and partial
+dat_em_mod <- dat_em_mod[, ":="(
+  type = ifelse(any(obj %in% "app"), "Mother", "Daughter"),
+  partial = ifelse(any((obj %in% "length") & (obj_sub1 %in% "partial" | obj_sub2 %in% "partial")), TRUE, FALSE)), keyby= centriole_ID]
+
+#generate table with partial centrioles objects and remove partial centrioles objects from table to be used for statistics
+dat_em_partial <- dat_em_mod[partial==TRUE, .SD, .SDcols= !c("partial")]
+
+dat_em_mod <- dat_em_mod[partial==FALSE]
+
+#find points defining the proximal end of centrioles
+dat_diam_prox_mean <- dat_em_mod[obj %in% "diam" & obj_sub1 %in% "prox", 
+                                 .(px=mean(point_x),
+                                   py=mean(point_y),
+                                   pz=mean(point_z)), 
+                                 keyby=centriole_ID]
+setkey(dat_em_mod, centriole_ID)
+setkey(dat_diam_prox_mean, centriole_ID)
+
+dat_p0 <- dat_diam_prox_mean[dat_em_mod[obj %in% "length" & !(obj_sub1 %in% "asymmetric"), .(centriole_ID, point_number, point_x, point_y, point_z)]
+            ][,distance := norm(c(px-point_x,py-point_y,pz-point_z), "2"),by=c("centriole_ID","point_number")
+              ][, .SD[which.min(distance)], by = centriole_ID][,.(centriole_ID, point_number,proximal_point = TRUE)]
+
+setkeyv(dat_p0, c("centriole_ID", "point_number"))
+setkeyv(dat_em_mod, c("centriole_ID", "point_number"))
+
+#generate table to calculate appendage parameters, filter asymmetric length measures
+dat_em_mod <- dat_p0[dat_em_mod][,proximal_point := replace_na(proximal_point,FALSE)]
+dat_mod_app <- dat_em_mod[centriole_ID %in% dat_diam_prox_mean$centriole_ID][!(obj %in% "length" & obj_sub1 %in% "asymmetric")]
+
+#Centrioles with more than two points defining a length are excluded from appendage analysis:
+dat_mod_app <- dat_mod_app[!centriole_ID %in% dat_mod_app[obj %in% "length"][proximal_point==FALSE, .N, by=centriole_ID][N>1, centriole_ID]]
+
+#Output table with the invalid objects identified
+kable(dat_em_invalid, caption = "Invalid objects identified") %>%
+  kable_classic(full_width = F, html_font = "Serif") %>%
+  kable_styling() %>%
+  scroll_box(width = "100%", height = "400px")
+```
+
+###Create lists for statistical analysis
+```{r create lists for tables and plots, warning=FALSE}
+#List with coordinates of proximal and distal points as well as calculated angle of intersection with the z-plane
+dat_angle <- dat_mod_app[obj %in% "length" & proximal_point==TRUE, .(
+  prox_x = point_x,
+  prox_y = point_y,
+  prox_z = point_z
+), keyby = centriole_ID][dat_mod_app[obj %in% "length" & proximal_point==FALSE, .(
+  dist_x = point_x,
+  dist_y = point_y,
+  dist_z = point_z
+), keyby = centriole_ID]
+][,angle := replace_na(calc.angle(c(dist_x-prox_x, dist_y-prox_y, 0), c(dist_x-prox_x, dist_y-prox_y, dist_z-prox_z)),0),by=centriole_ID]
+
+setkey(dat_angle, "centriole_ID")
+setkey(dat_em_mod, "centriole_ID")
+dat_em_mod <- dat_angle[dat_em_mod]
+
+#List with centriole lengths and diameters
+dat_length <- unique(dat_angle[dat_em_mod[obj %in% "length",.(    
+  ID,
+  c_label,
+  type,
+  length = mean(length),
+  over_500 = length > 500)
+  ,keyby=centriole_ID]])
+
+dat_diam_prox <- dat_em_mod[obj %in% "diam" & obj_sub1 %in% "prox", .(diam.prox = mean(length)),keyby=centriole_ID]
+dat_diam_mid <- dat_em_mod[obj %in% "diam" & obj_sub1 %in% "mid", .(diam.mid = mean(length)),keyby=centriole_ID]
+dat_diam_dist <- dat_em_mod[obj %in% "diam" & obj_sub1 %in% "dist", .(diam.dist = mean(length)),keyby=centriole_ID]
+dat_diam_mean <- dat_em_mod[obj %in% "diam", .(diam.mean = mean(length)),keyby=centriole_ID]
+
+dat_length <- dat_length[dat_diam_prox][dat_diam_mid][dat_diam_dist][dat_diam_mean]
+
+#Description of the parameters:
+#dat_length$angle <- "Angle(degree)"
+#dat_length$length <- "Length (nm)"
+#dat_length$diam.mean <- "Diameter (nm)"
+#dat_length$diam.prox <- "Diameter, proximal (nm)"
+#dat_length$diam.mid <- "Diameter, central (nm)"
+#dat_length$diam.dist <- "Diameter, distal (nm)"
+#dat_length$type <- "Centriole type"
+#dat_length$over_500 <- "Centriole >500nm"
+
+
+#List with localization of individual appendages
+dat_app_temp <- dat_mod_app[obj %in% "app" & partial == FALSE, .(
+  xmean = mean(point_x),
+  ymean = mean(point_y),
+  zmean = mean(point_z)
+), by=.(centriole_ID, obj_sub1, contour_number)]
+setnames(dat_app_temp, c("obj_sub1", "contour_number"), c("App.set", "App.set.subnumber"))
+setkey(dat_app_temp, "centriole_ID")
+
+dat_app <- dat_length[dat_app_temp, nomatch = FALSE
+                      ][, ':='(
+                        App.loc.x = orthogonalProjectionToLine(c(xmean,ymean,zmean),c(prox_x,prox_y,prox_z),c(dist_x,dist_y,dist_z))[1],
+                        App.loc.y = orthogonalProjectionToLine(c(xmean,ymean,zmean),c(prox_x,prox_y,prox_z),c(dist_x,dist_y,dist_z))[2],
+                        App.loc.z = orthogonalProjectionToLine(c(xmean,ymean,zmean),c(prox_x,prox_y,prox_z),c(dist_x,dist_y,dist_z))[3]), by = .(centriole_ID, App.set, App.set.subnumber)
+                        ][, App.loc.length := norm(c(App.loc.x-prox_x,App.loc.y-prox_y,App.loc.z-prox_z),type="2")*params$pix.size, by = .(centriole_ID, App.set, App.set.subnumber)][,App.loc.relative := App.loc.length / length, by = .(centriole_ID, App.set, App.set.subnumber)]
+
+#List with phenotypes
+ph_list <- unique(dat_em_mod[obj %in% "ph",.(
+  Phenotype = paste(unique(obj_sub1), collapse=",")
+), keyby = c("centriole_ID")])
+
+#List with centriole counts and parameters
+count_table <- unique(dat_em_mod[obj %in% "length" & !obj_sub1 %in% "asymmetric",.(
+  "N centrioles" = max(centriole_N),
+  "N mothers" = sum(type=="Mother"),
+  "N daughters" = sum(type=="Daughter"),
+  "Longest centriole (nm)" = max(length)
+  ), keyby = c_label])
+
+app_list <- unique(dat_app[,.(
+  ID,
+  length,
+  "N appendages" = .N,
+  "N sets of appendages" = max(App.set),
+  ">2 appendages" = ifelse(.N>2, TRUE, FALSE),
+  "Location of first appendage from proximal point (nm)" = min(App.loc.length),
+  "Location of last appendage from proximal point (nm)" = max(App.loc.length),
+  "Mean location of appendages from proximal point (nm)" = mean(App.loc.length),
+  "Relative location of first appendage from proximal point" = min(App.loc.relative),
+  "Relative location of last appendage from proximal point" = max(App.loc.relative),
+  "Mean relative location of appendages from proximal point" = mean(App.loc.relative)
+), keyby = centriole_ID
+])
+
+setkey(ph_list, "centriole_ID")
+setkey(dat_length, "centriole_ID")
+ph_list1 <- ph_list[,!"ID"]
+dat_length <- ph_list1[dat_length]
+dat_length <- app_list[,c(1,4:12)][dat_length]
+
+# basic statistics by ID
+ID_list <- unique(dat_length[,.(
+  "N cells" = length(unique(c_label)),
+  "N centrioles" = length(unique(centriole_ID)),
+  "N centrioles per centrosome" = length(unique(centriole_ID)) / length(unique(c_label)),
+  "N appendages, median" = as.numeric(median(`N appendages`, na.rm=TRUE)),
+  "N appendages, minimum" = as.numeric(min(`N appendages`, na.rm=TRUE)),
+  "N appendages, maximum" = as.numeric(max(`N appendages`, na.rm=TRUE)),
+  "Mothers (%)" = sum(type=="Mother", na.rm=TRUE)/.N,
+  "Centriole length, median" = median(length),
+  "Centriole length, minimum" = max(length),
+  "Centriole length, maximum" = min(length),
+  "Centriole diameter, median" = median(diam.mean),
+  "Centriole diameter, minimum" = max(diam.mean),
+  "Centriole diameter, maximum" = min(diam.mean),
+  "Centrioles >500nm (%)" = sum(length > 500)/.N*100,
+  ">20% of centrioles are >500nm" = sum(length > 500)/.N >0.20)
+  ,keyby=ID])
+
+
+#Output of lists
+
+kable(dat_length, caption = "Centriole parameters") %>%
+  kable_classic(full_width = F, html_font = "Serif") %>%
+  kable_styling() %>%
+  scroll_box(width = "100%", height = "400px")
+
+kable(count_table, caption = "Count of centrosomes and centrioles") %>%
+  kable_classic(full_width = F, html_font = "Serif") %>%
+  kable_styling() %>%
+  scroll_box(width = "100%", height = "400px")
+
+kable(app_list, caption = "Appendages characteristics") %>%
+  kable_classic(full_width = F, html_font = "Serif") %>%
+  kable_styling() %>%
+  scroll_box(width = "100%", height = "400px")
+
+kable(ph_list, caption = "Observed phenotypes") %>%
+  kable_classic(full_width = F, html_font = "Serif") %>%
+  kable_styling() %>%
+  scroll_box(width = "100%", height = "400px")
+
+kable(ID_list, caption = "Centriole statistics by ID") %>%
+  kable_classic(full_width = F, html_font = "Serif") %>%
+  kable_styling() %>%
+  scroll_box(width = "100%", height = "400px")
+```
+
+
+```{r save data}
+#Save tables as .xslx
+
+if (params$produce.tables) {
+  
+  legend.table = data.table()
+    legend.table$Sheet <- c("dat_em", "dat_length", "count_table", "app_list", "ph_list","ID_list")
+    legend.table$Description <- c("Extracted imod data", "Centriole parameters", "Count of centrosomes and centrioles", "Appendages characteristics", "Observed phenotypes","Centriole statistics by ID")
+
+  wb <- createWorkbook()
+  addWorksheet(wb, "Legend")
+  addWorksheet(wb, "dat_em")
+  addWorksheet(wb, "dat_length")
+  addWorksheet(wb, "count_table")
+  addWorksheet(wb, "app_list")
+  addWorksheet(wb, "ph_list")
+  addWorksheet(wb, "ID_list")
+
+  writeData(wb, "Legend", legend.table, colNames = TRUE)
+  writeData(wb, "dat_em", dat_em, colNames = TRUE)
+  writeData(wb, "dat_length", dat_length, colNames = TRUE)
+  writeData(wb, "count_table", count_table, colNames = TRUE)
+  writeData(wb, "app_list", app_list, colNames = TRUE)
+  writeData(wb, "ph_list", ph_list, colNames = TRUE)
+  writeData(wb, "ID_list", ID_list, colNames = TRUE)
+
+  openXL(wb)
+}
+```
+
+
+
