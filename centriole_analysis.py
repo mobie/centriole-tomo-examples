@@ -20,6 +20,8 @@ import mobie.metadata as mm
 
 import glob
 import json
+import xml.etree.ElementTree as ET
+
 import mrcfile as mrc
 
 def vec2mat(a,b):
@@ -175,11 +177,37 @@ for xlfile in a:
         
         tomoid = infile.partition('_')[2]
         
+        newxml = os.path.join(imagedir,newid+'_'+infile+'.xml') 
+        # with open(newxml, 'r') as f: xmltxt = f.readlines()
         
+        if os.path.exists(newxml):
+                
+            
+            tree = ET.parse(newxml)
+            
+            root = tree.getroot()
+                    
+            for child in root:
+                if child.tag == 'SequenceDescription':
+                    for sqch in child:
+                        if sqch.tag == 'ViewSetups':                        
+                            for vsch in sqch[0]:
+                                
+                                if vsch.tag=='size':
+                                    imsize = vsch.text
+                                    
+                                    
+            im_sz = list(map(int,imsize.split(' ')))
+        
+        # assemble join file path
+        filepath= tomoid + '.join'
+            
+        sourcename = newid+'_'+infile
+        
+                    
         if overwr_source:
             
-            # assemble join file path
-            filepath= tomoid + '.join'
+            
             
             
             mrc_in = os.path.join(joindir,strain, patient,grid,filepath)
@@ -192,14 +220,14 @@ for xlfile in a:
                 continue
             
             pxs = mfile.voxel_size.x / 10000 # in um
-                    
+            
+            im_sz = [mfile.header.nx,mfile.header.ny,mfile.header.nz]
+            
             n5link = '_'+patient+'_'+infile
             
             n5file = os.path.join(imagedir,strain,n5link+'.n5')        
                     
-            
-            sourcename = newid+'_'+infile
-            
+
             newlink = os.path.join(strain,sourcename)
             newn5 = os.path.join(imagedir,newlink+'.n5')
             
@@ -221,7 +249,6 @@ for xlfile in a:
             if not os.path.exists(xmlfile):
                 xmlfile = os.path.join(xmldir,'_'+patient+'_'+infile+'.xml')
             
-            newxml = os.path.join(imagedir,newid+'_'+infile+'.xml') 
                   
             with open(xmlfile, 'r') as f: xmltxt = f.read()
             
@@ -263,7 +290,8 @@ for xlfile in a:
                                    view = view,
                                    overwrite = overwr_source
                                    )
-                                   
+            
+            del(mfile)
             
             
                 
@@ -276,6 +304,10 @@ for xlfile in a:
         lenrows = [item for item in filerows if 'length' in c_id[item]]
     
         numcent = np.unique([c_id[i] for i in lenrows])
+        
+        
+        
+
     
         for cent in numcent:
             
@@ -288,7 +320,7 @@ for xlfile in a:
             t=dict()
             lenpts = [filerows[i] for i,label in enumerate(filelabels) if (cent.partition('.')[0] in label) & ('length' in label)]
     
-            lenpos = np.stack([np.array((x[pt], mfile.header.ny - y[pt],z[pt])) for pt in lenpts])
+            lenpos = np.stack([np.array((x[pt], im_sz[1] - y[pt],z[pt])) for pt in lenpts])
     
             if lenpos.shape[0]<2:
                 raise ValueError
@@ -345,7 +377,7 @@ for xlfile in a:
                                                     ]
                                                 )
 
-            disp1 = mm.view_metadata.get_image_display(centname,[sourcename])      
+            disp1 = mm.view_metadata.get_image_display(centname,[centname + "_crop"])      
             
             
             cview = mm.get_view(names = [centname],
@@ -367,7 +399,6 @@ for xlfile in a:
                                    view = cview)
             
             
-        del(mfile)
    
     if not skip:   
         with open(patientjson,'w') as f:
