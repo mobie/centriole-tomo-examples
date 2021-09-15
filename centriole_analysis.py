@@ -89,13 +89,14 @@ datadir = './data/tomo/'
 imagedir = os.path.join(datadir,'images','bdv-n5')
 joindir = '../Tomography/joined/'
 
+xmldir = 'xml_orig'
 
 
 patientjson = './patients.json'
 
 ndigits = 2
 
-
+overwr_source = False
 
 
 
@@ -166,6 +167,7 @@ for xlfile in a:
     targets=[]
         
     for infile in np.unique(filesin):
+        print('Processing '+infile+'. Patient: '+patient+'   ...\n')
         
         
         grid = infile.partition('_')[0]
@@ -173,93 +175,96 @@ for xlfile in a:
         
         tomoid = infile.partition('_')[2]
         
-        # assemble join file path
-        filepath= tomoid + '.join'
         
-        
-        mrc_in = os.path.join(joindir,strain, patient,grid,filepath)
-
-        try:
-            mfile = mrc.mmap(mrc_in,permissive = 'True')
-        except:
-            print('Error in '+mrc_in)
-            badfiles = True
-            continue
-        
-        pxs = mfile.voxel_size.x / 10000 # in um
-                
-        n5link = '_'+patient+'_'+infile
-        
-        n5file = os.path.join(imagedir,strain,n5link+'.n5')        
-                
-        
-        sourcename = newid+'_'+infile
-        
-        newlink = os.path.join(strain,sourcename)
-        newn5 = os.path.join(imagedir,newlink+'.n5')
-        
-        if not os.path.exists(newn5):
-            if not os.path.exists(n5file):
-                print('adding '+infile+ ' to list of files to convert.')
-                joinfiles.append(patient+'/'+infile)
-                skip = True
+        if overwr_source:
+            
+            # assemble join file path
+            filepath= tomoid + '.join'
+            
+            
+            mrc_in = os.path.join(joindir,strain, patient,grid,filepath)
+    
+            try:
+                mfile = mrc.mmap(mrc_in,permissive = 'True')
+            except:
+                print('Error in '+mrc_in)
+                badfiles = True
                 continue
             
-            # move n5
-            shutil.move(n5file,newn5)
-        
-        print('Processing '+infile+'. Patient: '+patient+'   ...\n')
-
-        
-        # change link in XML
-        xmlfile = os.path.join(imagedir,strain,'_'+patient+'_'+infile+'.xml')       
-        
-        if not os.path.exists(xmlfile):
-            xmlfile = os.path.join('xml_orig','_'+patient+'_'+infile+'.xml')
-        
-        newxml = os.path.join(imagedir,newid+'_'+infile+'.xml') 
-              
-        with open(xmlfile, 'r') as f: xmltxt = f.read()
-        
-        
-        xmltxt = xmltxt.replace(n5link,newlink)
-        xmltxt = xmltxt.replace(tomoid+'<',sourcename+'<')
-        #remove original file reference
-        
-        xmltxt = re.sub('\<OriginalFile\>.*\<\/OriginalFile\>\\n','',xmltxt)
-        
-        with open(newxml, 'w') as f: f.write(xmltxt)
-
-        # os.remove(xmlfile)
-        
-        
-        
-        
-        # add source to dataset        
-        
-        # generate tomo view
-        
-        
-        
-        disp = mm.view_metadata.get_image_display(sourcename,[sourcename])      
-        
-
-        view = mm.get_view(names = [sourcename],
-                            source_types = ['image'],
-                            sources = [[sourcename]],
-                            display_settings = [disp],
-                            is_exclusive = True,
-                            menu_name = 'Tomograms' 
-                            )       
-        
-        mm.add_source_to_dataset(dataset_folder = datadir,
-                               source_type = 'image',
-                               source_name = sourcename,
-                               image_metadata_path = newxml,
-                               view = view
-                               )
-                               
-        
+            pxs = mfile.voxel_size.x / 10000 # in um
+                    
+            n5link = '_'+patient+'_'+infile
+            
+            n5file = os.path.join(imagedir,strain,n5link+'.n5')        
+                    
+            
+            sourcename = newid+'_'+infile
+            
+            newlink = os.path.join(strain,sourcename)
+            newn5 = os.path.join(imagedir,newlink+'.n5')
+            
+            if not os.path.exists(newn5):
+                if not os.path.exists(n5file):
+                    print('adding '+infile+ ' to list of files to convert.')
+                    joinfiles.append(patient+'/'+infile)
+                    skip = True
+                    continue
+                
+                # move n5
+                shutil.move(n5file,newn5)
+            
+    
+            
+            # change link in XML
+            xmlfile = os.path.join(imagedir,strain,'_'+patient+'_'+infile+'.xml')       
+            
+            if not os.path.exists(xmlfile):
+                xmlfile = os.path.join(xmldir,'_'+patient+'_'+infile+'.xml')
+            
+            newxml = os.path.join(imagedir,newid+'_'+infile+'.xml') 
+                  
+            with open(xmlfile, 'r') as f: xmltxt = f.read()
+            
+            
+            xmltxt = xmltxt.replace(n5link,newlink)
+            xmltxt = xmltxt.replace(tomoid+'<',sourcename+'<')
+            #remove original file reference
+            
+            xmltxt = re.sub('\<OriginalFile\>.*\<\/OriginalFile\>\\n','',xmltxt)
+            
+            with open(newxml, 'w') as f: f.write(xmltxt)
+    
+            # os.remove(xmlfile)
+            
+            
+            
+            
+            # add source to dataset        
+            
+            # generate tomo view
+            
+            
+            
+            disp = mm.view_metadata.get_image_display(sourcename,[sourcename])      
+            
+    
+            view = mm.get_view(names = [sourcename],
+                                source_types = ['image'],
+                                sources = [[sourcename]],
+                                display_settings = [disp],
+                                is_exclusive = True,
+                                menu_name = 'Tomograms' 
+                                )       
+            
+            mm.add_source_to_dataset(dataset_folder = datadir,
+                                   source_type = 'image',
+                                   source_name = sourcename,
+                                   image_metadata_path = newxml,
+                                   view = view,
+                                   overwrite = overwr_source
+                                   )
+                                   
+            
             
                 
         
