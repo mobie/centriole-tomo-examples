@@ -214,6 +214,9 @@ for xlfile in a:
         # change link in XML
         xmlfile = os.path.join(imagedir,strain,'_'+patient+'_'+infile+'.xml')       
         
+        if not os.path.exists(xmlfile):
+            xmlfile = os.path.join('xml_orig','_'+patient+'_'+infile+'.xml')
+        
         newxml = os.path.join(imagedir,newid+'_'+infile+'.xml') 
               
         with open(xmlfile, 'r') as f: xmltxt = f.read()
@@ -338,7 +341,7 @@ for xlfile in a:
                                                 )
 
             disp1 = mm.view_metadata.get_image_display(centname,[sourcename])      
-
+            
             
             cview = mm.get_view(names = [centname],
                     source_types = ['image'],
