@@ -88,7 +88,7 @@ def mobieconvert(file):
                     )
 
 
-with Pool(15) as p:
+with Pool(16) as p:
     p.map(mobieconvert, joinlist)
 
 
