@@ -7,7 +7,7 @@ Created on Mon Jun  7 08:27:24 2021
 """
 
 import mrcfile as mrc
-import numpy as np
+import random
 import time
 import sys
 import os
@@ -39,7 +39,7 @@ with open(fileslist,'r') as f:
 idx = 0
 
 def mobieconvert(file):
-    time.sleep(int(np.random.random()*120))
+    sleeptime = int(random.random()*120)
     file = os.path.abspath(os.path.join(indir, file))
 
     base = os.path.basename(file).split('_join')[0]
@@ -59,7 +59,9 @@ def mobieconvert(file):
     # else:
     #     time.sleep(submit_interval)
 
-    print('converting ' + base + ' into MoBIE format.')
+    print('converting ' + base + ' into MoBIE format after waiting for '+str(sleeptime)+'seconds.')
+
+    time.sleep(sleeptime)
 
     # get pixel size
 
