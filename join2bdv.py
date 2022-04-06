@@ -39,7 +39,7 @@ with open(fileslist,'r') as f:
 idx = 0
 
 def mobieconvert(file):
-    time.sleep(int(np.random.random()*60))
+    time.sleep(int(np.random.random()*120))
     file = os.path.abspath(os.path.join(indir, file))
 
     base = os.path.basename(file).split('_join')[0]
@@ -84,7 +84,7 @@ def mobieconvert(file):
                     )
 
 
-with Pool(8) as p:
-    p.map(mobieconvert, joinlist)
+with Pool(10) as p:
+    p.map(mobieconvert, joinlist[:5])
 
 
