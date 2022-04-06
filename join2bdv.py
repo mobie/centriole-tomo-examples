@@ -7,7 +7,7 @@ Created on Mon Jun  7 08:27:24 2021
 """
 
 import mrcfile as mrc
-# import time
+import time
 import sys
 import os
 import mobie
@@ -38,6 +38,7 @@ with open(fileslist,'r') as f:
 idx = 0
 
 def mobieconvert(file):
+    time.sleep(int(np.random.random()*60))
     file = os.path.abspath(os.path.join(indir, file))
 
     base = os.path.basename(file).split('_join')[0]
@@ -82,7 +83,7 @@ def mobieconvert(file):
                     )
 
 
-with Pool(5) as p:
+with Pool(15) as p:
     p.map(mobieconvert, joinlist)
 
 
