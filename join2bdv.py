@@ -82,8 +82,8 @@ def mobieconvert(file):
                     chunks,
                     file_format="ome.zarr",
                     target=target,
-                    max_jobs=20,
-                    menu_name='tomograms'
+                    max_jobs=24,
+                    menu_name='tomograms',
                     tmp_folder='/scratch/schorb/mobie/'+base
                     )
 
