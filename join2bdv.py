@@ -77,7 +77,8 @@ def mobieconvert(file):
                     downscale_factors,
                     chunks,
                     file_format="ome.zarr",
-                    target=target
+                    target=target,
+                    tmp_folder='/scratch/schorb/mobie/'+base
                     )
 
 
