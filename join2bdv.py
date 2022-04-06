@@ -24,7 +24,7 @@ break_interval = 120
 
 outformat='ome.zarr'
 chunks = list((64,128,128))
-downscale_factors = list(([2,2,2],[2,2,2],[1,2,2],[1,2,2],[2,4,4],[2,2,2]))
+downscale_factors = list(([2,2,2],[2,2,2],[1,2,2],[1,2,2],[2,2,2],[2,2,2]))
 
 indir = '/g/schwab/Tobias/EMPIAR/volumes/'
 suffix = sys.argv[1]
