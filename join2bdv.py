@@ -14,12 +14,13 @@ import os
 import mobie
 
 
-cluster = True
+
+target='slurm'
 
 
 submit_interval = 2 # time to wait between submitting jobs to not overload the group share IO
-blocksize = 8
-break_interval = 40
+blocksize = 5
+break_interval = 120
 
 
 outformat='ome.zarr'
@@ -71,7 +72,7 @@ for file in joinlist:
     del(mfile)
     resolution=[tomopx]*3
 
-    mobie.add_image(file,'',outdir,'tomo',base,resolution,downscale_factors,chunks,file_format=outformat)
+    mobie.add_image(file,'',outdir,'tomo',base,resolution,downscale_factors,chunks,file_format=outformat,target=target)
 
     # mat=np.eye(4)*tomopx
     # mat[2,2] = tomopx*zstretch
