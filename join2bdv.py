@@ -29,7 +29,7 @@ suffix = sys.argv[1]
 
 fileslist = os.path.join('/g/schwab/Tobias/MoBIE/',suffix+'_joinfiles.txt')
 
-outdir = os.path.join('./test')#/g/schwab/Tobias/MoBIE2')
+outdir = os.path.join('/g/schwab/Tobias/MoBIE2')
 
 
 with open(fileslist,'r') as f:
