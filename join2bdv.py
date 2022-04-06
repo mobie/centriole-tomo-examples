@@ -7,6 +7,7 @@ Created on Mon Jun  7 08:27:24 2021
 """
 
 import mrcfile as mrc
+import numpy as np
 import time
 import sys
 import os
