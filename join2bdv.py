@@ -6,9 +6,8 @@ Created on Mon Jun  7 08:27:24 2021
 @author: schorb
 """
 
-import numpy as np
 import mrcfile as mrc
-import re
+import time
 import sys
 import os
 import mobie
