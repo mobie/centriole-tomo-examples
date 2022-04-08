@@ -40,12 +40,11 @@ with open(fileslist,'r') as f:
 
 idx = 0
 
-def mobieconvert(file):
+def mobieconvert(infile):
     # skip empty lines
     if len(file)<3: return
 
     sleeptime = int(random.random()*90)
-    infile = os.path.abspath(os.path.join(indir, file))
 
     base = os.path.basename(infile).split('_join')[0]
 
@@ -91,11 +90,11 @@ def mobieconvert(file):
                     tmp_folder='/scratch/schorb/mobie/'+base
                     )
     except:
-        print('re-doing '+file)
+        print('re-doing '+base)
         with open('./missingjoins.txt','wa+') as f:
-            f.write(file+'  -   '+time.ctime())
+            f.write(base+'  -   '+time.ctime())
         os.system('rm -rf /scratch/schorb/mobie/'+base)
-        mobieconvert(file)
+        mobieconvert(infile)
 
 
 with Pool(8) as p:
