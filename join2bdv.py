@@ -30,7 +30,7 @@ suffix = sys.argv[1]
 # indir = os.path.join(indir,suffix)
 
 # fileslist = os.path.join('/g/schwab/Tobias/MoBIE/',suffix+'_joinfiles.txt')
-fileslist = os.path.join('/g/schwab/Tobias/EMPIAR/volumes',suffix.split('_')[0],suffix+'*')
+fileslist = glob.glob(os.path.join('/g/schwab/Tobias/EMPIAR/volumes',suffix.split('_')[0],suffix+'*'))
 
 outdir = os.path.join('/g/schwab/Tobias/MoBIE2')
 
