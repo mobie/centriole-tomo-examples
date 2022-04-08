@@ -87,6 +87,7 @@ def mobieconvert(file):
                     )
     except:
         print('re-doing '+file)
+        os.system('rm -rf /scratch/schorb/mobie/'+base)
         mobieconvert(file)
 
 
