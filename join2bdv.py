@@ -39,7 +39,7 @@ with open(fileslist,'r') as f:
 idx = 0
 
 def mobieconvert(file):
-    sleeptime = int(random.random()*120)
+    sleeptime = int(random.random()*90)
     infile = os.path.abspath(os.path.join(indir, file))
 
     base = os.path.basename(infile).split('_join')[0]
@@ -86,6 +86,7 @@ def mobieconvert(file):
                     tmp_folder='/scratch/schorb/mobie/'+base
                     )
     except:
+        print('re-doing '+file)
         mobieconvert(file)
 
 
