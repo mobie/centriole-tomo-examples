@@ -39,6 +39,9 @@ with open(fileslist,'r') as f:
 idx = 0
 
 def mobieconvert(file):
+    # skip empty lines
+    if len(file)<3: return
+
     sleeptime = int(random.random()*90)
     infile = os.path.abspath(os.path.join(indir, file))
 
@@ -87,6 +90,8 @@ def mobieconvert(file):
                     )
     except:
         print('re-doing '+file)
+        with open('./missingjoins.txt','a+') as f:
+            f.write(file+'  -   '+time.ctime())
         os.system('rm -rf /scratch/schorb/mobie/'+base)
         mobieconvert(file)
 
