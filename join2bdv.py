@@ -28,7 +28,7 @@ suffix = sys.argv[1]
 
 # indir = os.path.join(indir,suffix)
 
-fileslist = os.path.join('/g/schwab/Tobias/MoBIE/',suffix+'_joinfiles.txt')
+fileslist = os.path.join('/g/schwab/Tobias/MoBIE/',suffix+'_joinfiles1.txt')
 
 outdir = os.path.join('/g/schwab/Tobias/MoBIE2')
 
@@ -40,9 +40,9 @@ idx = 0
 
 def mobieconvert(file):
     sleeptime = int(random.random()*120)
-    file = os.path.abspath(os.path.join(indir, file))
+    infile = os.path.abspath(os.path.join(indir, file))
 
-    base = os.path.basename(file).split('_join')[0]
+    base = os.path.basename(infile).split('_join')[0]
 
     # if os.path.exists(os.path.join(outdir,re.sub('/','_',base)+'.ome.zarr')):
     #     print('Skipping '+base+'. It already exists.')
@@ -65,14 +65,13 @@ def mobieconvert(file):
 
     # get pixel size
 
-    mfile = mrc.mmap(file, permissive='True')
+    mfile = mrc.mmap(infile, permissive='True')
     tomopx = mfile.voxel_size.x / 10000  # in um
     del (mfile)
     resolution = [tomopx] * 3
 
-    infile = file
-
-    mobie.add_image(infile,
+    try:
+        mobie.add_image(infile,
                     "data",
                     outdir,
                     "tomo",
@@ -82,13 +81,15 @@ def mobieconvert(file):
                     chunks,
                     file_format="ome.zarr",
                     target=target,
-                    max_jobs=24,
+                    max_jobs=16,
                     menu_name='tomograms',
                     tmp_folder='/scratch/schorb/mobie/'+base
                     )
+    except:
+        mobieconvert(file)
 
 
-with Pool(16) as p:
+with Pool(8) as p:
     p.map(mobieconvert, joinlist)
 
 
