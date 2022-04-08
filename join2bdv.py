@@ -39,7 +39,7 @@ idx = 0
 
 def mobieconvert(infile):
     # skip empty lines
-    if len(file)<3: return
+    if len(infile)<3: return
 
     sleeptime = int(random.random()*90)
 
