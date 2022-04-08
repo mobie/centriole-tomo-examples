@@ -12,6 +12,7 @@ import time
 import sys
 import os
 import mobie
+import glob
 from multiprocessing import Pool
 
 
@@ -28,7 +29,8 @@ suffix = sys.argv[1]
 
 # indir = os.path.join(indir,suffix)
 
-fileslist = os.path.join('/g/schwab/Tobias/MoBIE/',suffix+'_joinfiles1.txt')
+# fileslist = os.path.join('/g/schwab/Tobias/MoBIE/',suffix+'_joinfiles.txt')
+fileslist = os.path.join('/g/schwab/Tobias/EMPIAR/volumes',suffix.split('_')[0],suffix+'*')
 
 outdir = os.path.join('/g/schwab/Tobias/MoBIE2')
 
@@ -90,7 +92,7 @@ def mobieconvert(file):
                     )
     except:
         print('re-doing '+file)
-        with open('./missingjoins.txt','a+') as f:
+        with open('./missingjoins.txt','wa+') as f:
             f.write(file+'  -   '+time.ctime())
         os.system('rm -rf /scratch/schorb/mobie/'+base)
         mobieconvert(file)

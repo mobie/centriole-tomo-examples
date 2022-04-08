@@ -46277,6 +46277,26 @@
         }
       ],
       "uiSelectionGroup": "Centrioles"
+    },
+    "default": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "CD138-BMNC_01_Grid5_c0105",
+            "opacity": 1.0,
+            "sources": [
+              "CD138-BMNC_01_Grid5_c0105"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "Tomograms"
     }
   }
 }
