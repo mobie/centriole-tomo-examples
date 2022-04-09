@@ -88,7 +88,7 @@ def mobieconvert(infile):
                     )
     except:
         print('re-doing '+base)
-        with open('./missingjoins.txt','wa+') as f:
+        with open('./missingjoins.txt','a+') as f:
             f.write(base+'  -   '+time.ctime())
         os.system('rm -rf /scratch/schorb/mobie/'+base)
         mobieconvert(infile)
