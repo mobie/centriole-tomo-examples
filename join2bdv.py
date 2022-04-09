@@ -82,7 +82,7 @@ def mobieconvert(infile):
                     chunks,
                     file_format="ome.zarr",
                     target=target,
-                    max_jobs=16,
+                    max_jobs=20,
                     menu_name='tomograms',
                     tmp_folder='/scratch/schorb/mobie/'+base
                     )
@@ -94,7 +94,7 @@ def mobieconvert(infile):
         mobieconvert(infile)
 
 
-with Pool(8) as p:
+with Pool(10) as p:
     p.map(mobieconvert, joinlist)
 
 
