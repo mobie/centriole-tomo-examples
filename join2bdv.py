@@ -85,7 +85,7 @@ def mobieconvert(infile):
                     max_jobs=20,
                     menu_name='tomograms',
                     tmp_folder='/scratch/schorb/mobie/'+base,
-                    signed_to_unsigned=True
+                    int_to_uint=True
                     )
     except:
         print('re-doing '+base)
