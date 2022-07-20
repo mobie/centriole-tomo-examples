@@ -18,8 +18,6 @@ from multiprocessing import Pool
 
 target='slurm'
 
-
-
 outformat='ome.zarr'
 chunks = list((64,128,128))
 downscale_factors = list(([2,2,2],[2,2,2],[1,2,2],[1,2,2],[2,2,2],[2,2,2]))
@@ -32,8 +30,7 @@ suffix = sys.argv[1]
 # fileslist = os.path.join('/g/schwab/Tobias/MoBIE/',suffix+'_joinfiles.txt')
 joinlist = glob.glob(os.path.join('/g/schwab/Tobias/EMPIAR/volumes',suffix.split('_')[0],suffix+'*'))
 
-outdir = os.path.join('/g/schwab/Tobias/MoBIE2')
-
+outdir = '/g/emcf/schorb/code/centrioles-tomo-datasets'
 
 idx = 0
 
@@ -95,7 +92,7 @@ def mobieconvert(infile):
         mobieconvert(infile)
 
 
-with Pool(10) as p:
+with Pool(20) as p:
     p.map(mobieconvert, joinlist)
 
 
