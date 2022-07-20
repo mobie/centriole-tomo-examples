@@ -30,6 +30,8 @@ suffix = sys.argv[1]
 # fileslist = os.path.join('/g/schwab/Tobias/MoBIE/',suffix+'_joinfiles.txt')
 joinlist = glob.glob(os.path.join('/g/schwab/Tobias/EMPIAR/volumes',suffix.split('_')[0],suffix+'*'))
 
+print('Found ' + str(len(joinlist)) + ' files for type ' + suffix + '.')
+
 outdir = '/g/emcf/schorb/code/centrioles-tomo-datasets'
 
 idx = 0
