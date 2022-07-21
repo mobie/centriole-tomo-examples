@@ -294,6 +294,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0051.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0051.ome.zarr"
           }
         }
       }
@@ -303,6 +306,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0094.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0094.ome.zarr"
           }
         }
       }
@@ -312,6 +318,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0099.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0099.ome.zarr"
           }
         }
       }
@@ -321,6 +330,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0101.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0101.ome.zarr"
           }
         }
       }
@@ -330,6 +342,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0105.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0105.ome.zarr"
           }
         }
       }
@@ -339,6 +354,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0160.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0160.ome.zarr"
           }
         }
       }
@@ -348,6 +366,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0172.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0172.ome.zarr"
           }
         }
       }
@@ -357,6 +378,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0176.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0176.ome.zarr"
           }
         }
       }
@@ -366,6 +390,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0198.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0198.ome.zarr"
           }
         }
       }
@@ -375,6 +402,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0290.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0290.ome.zarr"
           }
         }
       }
@@ -384,6 +414,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0312.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0312.ome.zarr"
           }
         }
       }
@@ -393,6 +426,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0320.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0320.ome.zarr"
           }
         }
       }
@@ -402,6 +438,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0362.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0362.ome.zarr"
           }
         }
       }
@@ -411,6 +450,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0366.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0366.ome.zarr"
           }
         }
       }
@@ -420,6 +462,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0429.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0429.ome.zarr"
           }
         }
       }
@@ -429,6 +474,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0430.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0430.ome.zarr"
           }
         }
       }
@@ -438,6 +486,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0432.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0432.ome.zarr"
           }
         }
       }
@@ -447,6 +498,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0436.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0436.ome.zarr"
           }
         }
       }
@@ -456,6 +510,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0437.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0437.ome.zarr"
           }
         }
       }
@@ -465,6 +522,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0445.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0445.ome.zarr"
           }
         }
       }
@@ -474,6 +534,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0451.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0451.ome.zarr"
           }
         }
       }
@@ -483,6 +546,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0456.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0456.ome.zarr"
           }
         }
       }
@@ -492,6 +558,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0502.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0502.ome.zarr"
           }
         }
       }
@@ -501,6 +570,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0524.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0524.ome.zarr"
           }
         }
       }
@@ -510,6 +582,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0525.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0525.ome.zarr"
           }
         }
       }
@@ -519,6 +594,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0536.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0536.ome.zarr"
           }
         }
       }
@@ -528,6 +606,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0572.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0572.ome.zarr"
           }
         }
       }
@@ -537,6 +618,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0576.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0576.ome.zarr"
           }
         }
       }
@@ -546,6 +630,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0598.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0598.ome.zarr"
           }
         }
       }
@@ -555,6 +642,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0651.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0651.ome.zarr"
           }
         }
       }
@@ -564,6 +654,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0677.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0677.ome.zarr"
           }
         }
       }
@@ -573,6 +666,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0695.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0695.ome.zarr"
           }
         }
       }
@@ -582,6 +678,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0728.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0728.ome.zarr"
           }
         }
       }
@@ -591,6 +690,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0747.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0747.ome.zarr"
           }
         }
       }
@@ -600,6 +702,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0756.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0756.ome.zarr"
           }
         }
       }
@@ -609,6 +714,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0783.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0783.ome.zarr"
           }
         }
       }
@@ -618,6 +726,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0784.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0784.ome.zarr"
           }
         }
       }
@@ -627,6 +738,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0833.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0833.ome.zarr"
           }
         }
       }
@@ -636,6 +750,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0838.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0838.ome.zarr"
           }
         }
       }
@@ -645,6 +762,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0864.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0864.ome.zarr"
           }
         }
       }
@@ -654,6 +774,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0907.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0907.ome.zarr"
           }
         }
       }
@@ -663,6 +786,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0914.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0914.ome.zarr"
           }
         }
       }
@@ -672,6 +798,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0924.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0924.ome.zarr"
           }
         }
       }
@@ -681,6 +810,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0936.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0936.ome.zarr"
           }
         }
       }
@@ -690,6 +822,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0977.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0977.ome.zarr"
           }
         }
       }
@@ -699,6 +834,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c0993.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c0993.ome.zarr"
           }
         }
       }
@@ -708,6 +846,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1048.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1048.ome.zarr"
           }
         }
       }
@@ -717,6 +858,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1051.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1051.ome.zarr"
           }
         }
       }
@@ -726,6 +870,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1057.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1057.ome.zarr"
           }
         }
       }
@@ -735,6 +882,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1064.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1064.ome.zarr"
           }
         }
       }
@@ -744,6 +894,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1130.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1130.ome.zarr"
           }
         }
       }
@@ -753,6 +906,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1133.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1133.ome.zarr"
           }
         }
       }
@@ -762,6 +918,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1147.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1147.ome.zarr"
           }
         }
       }
@@ -771,6 +930,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1148.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1148.ome.zarr"
           }
         }
       }
@@ -780,6 +942,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1173.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1173.ome.zarr"
           }
         }
       }
@@ -789,6 +954,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1233.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1233.ome.zarr"
           }
         }
       }
@@ -798,6 +966,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1251.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1251.ome.zarr"
           }
         }
       }
@@ -807,6 +978,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1262.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1262.ome.zarr"
           }
         }
       }
@@ -816,6 +990,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1275.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1275.ome.zarr"
           }
         }
       }
@@ -825,6 +1002,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1304.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1304.ome.zarr"
           }
         }
       }
@@ -834,6 +1014,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1325.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1325.ome.zarr"
           }
         }
       }
@@ -843,6 +1026,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1344.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1344.ome.zarr"
           }
         }
       }
@@ -852,6 +1038,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1345.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1345.ome.zarr"
           }
         }
       }
@@ -861,6 +1050,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1383.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1383.ome.zarr"
           }
         }
       }
@@ -870,6 +1062,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1404.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1404.ome.zarr"
           }
         }
       }
@@ -879,6 +1074,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1417.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1417.ome.zarr"
           }
         }
       }
@@ -888,6 +1086,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1423.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1423.ome.zarr"
           }
         }
       }
@@ -897,6 +1098,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1440.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1440.ome.zarr"
           }
         }
       }
@@ -906,6 +1110,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1470.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1470.ome.zarr"
           }
         }
       }
@@ -915,6 +1122,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1492.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1492.ome.zarr"
           }
         }
       }
@@ -924,6 +1134,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1504.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1504.ome.zarr"
           }
         }
       }
@@ -933,6 +1146,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1538.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1538.ome.zarr"
           }
         }
       }
@@ -942,6 +1158,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1576.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1576.ome.zarr"
           }
         }
       }
@@ -951,6 +1170,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1631.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1631.ome.zarr"
           }
         }
       }
@@ -960,6 +1182,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1639.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1639.ome.zarr"
           }
         }
       }
@@ -969,6 +1194,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1675.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1675.ome.zarr"
           }
         }
       }
@@ -978,6 +1206,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1694.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1694.ome.zarr"
           }
         }
       }
@@ -987,6 +1218,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1714.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1714.ome.zarr"
           }
         }
       }
@@ -996,6 +1230,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1820.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1820.ome.zarr"
           }
         }
       }
@@ -1005,6 +1242,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1827.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1827.ome.zarr"
           }
         }
       }
@@ -1014,6 +1254,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1847.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1847.ome.zarr"
           }
         }
       }
@@ -1023,6 +1266,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1872.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1872.ome.zarr"
           }
         }
       }
@@ -1032,6 +1278,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/CD138-BMNC_01_grid5_c1873.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/CD138-BMNC_01_grid5_c1873.ome.zarr"
           }
         }
       }
@@ -1413,6 +1662,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c004.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c004.ome.zarr"
           }
         }
       }
@@ -1422,6 +1674,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c011.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c011.ome.zarr"
           }
         }
       }
@@ -1431,6 +1686,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c021.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c021.ome.zarr"
           }
         }
       }
@@ -1440,6 +1698,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c059.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c059.ome.zarr"
           }
         }
       }
@@ -1449,6 +1710,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c069.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c069.ome.zarr"
           }
         }
       }
@@ -1458,6 +1722,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c070.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c070.ome.zarr"
           }
         }
       }
@@ -1467,6 +1734,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c082.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c082.ome.zarr"
           }
         }
       }
@@ -1476,6 +1746,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c098.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c098.ome.zarr"
           }
         }
       }
@@ -1485,6 +1758,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c108.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c108.ome.zarr"
           }
         }
       }
@@ -1494,6 +1770,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c125.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c125.ome.zarr"
           }
         }
       }
@@ -1503,6 +1782,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c133.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c133.ome.zarr"
           }
         }
       }
@@ -1512,6 +1794,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c163.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c163.ome.zarr"
           }
         }
       }
@@ -1521,6 +1806,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c176.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c176.ome.zarr"
           }
         }
       }
@@ -1530,6 +1818,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c185.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c185.ome.zarr"
           }
         }
       }
@@ -1539,6 +1830,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c187.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c187.ome.zarr"
           }
         }
       }
@@ -1548,6 +1842,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c197.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c197.ome.zarr"
           }
         }
       }
@@ -1557,6 +1854,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c208.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c208.ome.zarr"
           }
         }
       }
@@ -1566,6 +1866,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c215.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c215.ome.zarr"
           }
         }
       }
@@ -1575,6 +1878,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c233.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c233.ome.zarr"
           }
         }
       }
@@ -1584,6 +1890,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c248.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c248.ome.zarr"
           }
         }
       }
@@ -1593,6 +1902,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c250.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c250.ome.zarr"
           }
         }
       }
@@ -1602,6 +1914,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c292.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c292.ome.zarr"
           }
         }
       }
@@ -1611,6 +1926,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c300.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c300.ome.zarr"
           }
         }
       }
@@ -1620,6 +1938,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c325.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c325.ome.zarr"
           }
         }
       }
@@ -1629,6 +1950,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c331.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c331.ome.zarr"
           }
         }
       }
@@ -1638,6 +1962,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c341.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c341.ome.zarr"
           }
         }
       }
@@ -1647,6 +1974,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c347.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c347.ome.zarr"
           }
         }
       }
@@ -1656,6 +1986,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c357.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c357.ome.zarr"
           }
         }
       }
@@ -1665,6 +1998,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c361.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c361.ome.zarr"
           }
         }
       }
@@ -1674,6 +2010,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c375.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c375.ome.zarr"
           }
         }
       }
@@ -1683,6 +2022,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c385.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c385.ome.zarr"
           }
         }
       }
@@ -1692,6 +2034,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c398.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c398.ome.zarr"
           }
         }
       }
@@ -1701,6 +2046,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid12_c411.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid12_c411.ome.zarr"
           }
         }
       }
@@ -1710,6 +2058,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c001.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c001.ome.zarr"
           }
         }
       }
@@ -1719,6 +2070,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c012.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c012.ome.zarr"
           }
         }
       }
@@ -1728,6 +2082,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c016.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c016.ome.zarr"
           }
         }
       }
@@ -1737,6 +2094,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c018.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c018.ome.zarr"
           }
         }
       }
@@ -1746,6 +2106,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c034.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c034.ome.zarr"
           }
         }
       }
@@ -1755,6 +2118,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c036.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c036.ome.zarr"
           }
         }
       }
@@ -1764,6 +2130,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c037.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c037.ome.zarr"
           }
         }
       }
@@ -1773,6 +2142,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c050.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c050.ome.zarr"
           }
         }
       }
@@ -1782,6 +2154,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c058.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c058.ome.zarr"
           }
         }
       }
@@ -1791,6 +2166,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c059.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c059.ome.zarr"
           }
         }
       }
@@ -1800,6 +2178,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c065.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c065.ome.zarr"
           }
         }
       }
@@ -1809,6 +2190,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c070.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c070.ome.zarr"
           }
         }
       }
@@ -1818,6 +2202,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c092.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c092.ome.zarr"
           }
         }
       }
@@ -1827,6 +2214,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c112.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c112.ome.zarr"
           }
         }
       }
@@ -1836,6 +2226,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c115.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c115.ome.zarr"
           }
         }
       }
@@ -1845,6 +2238,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c166.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c166.ome.zarr"
           }
         }
       }
@@ -1854,6 +2250,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c169.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c169.ome.zarr"
           }
         }
       }
@@ -1863,6 +2262,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c173.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c173.ome.zarr"
           }
         }
       }
@@ -1872,6 +2274,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c195.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c195.ome.zarr"
           }
         }
       }
@@ -1881,6 +2286,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c199.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c199.ome.zarr"
           }
         }
       }
@@ -1890,6 +2298,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c206.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c206.ome.zarr"
           }
         }
       }
@@ -1899,6 +2310,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c211.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c211.ome.zarr"
           }
         }
       }
@@ -1908,6 +2322,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c213.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c213.ome.zarr"
           }
         }
       }
@@ -1917,6 +2334,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c217.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c217.ome.zarr"
           }
         }
       }
@@ -1926,6 +2346,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c232.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c232.ome.zarr"
           }
         }
       }
@@ -1935,6 +2358,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c262.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c262.ome.zarr"
           }
         }
       }
@@ -1944,6 +2370,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c264.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c264.ome.zarr"
           }
         }
       }
@@ -1953,6 +2382,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c265.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c265.ome.zarr"
           }
         }
       }
@@ -1962,6 +2394,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c269.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c269.ome.zarr"
           }
         }
       }
@@ -1971,6 +2406,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c295.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c295.ome.zarr"
           }
         }
       }
@@ -1980,6 +2418,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c336.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c336.ome.zarr"
           }
         }
       }
@@ -1989,6 +2430,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c346.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c346.ome.zarr"
           }
         }
       }
@@ -1998,6 +2442,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c348.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c348.ome.zarr"
           }
         }
       }
@@ -2007,6 +2454,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c357.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c357.ome.zarr"
           }
         }
       }
@@ -2016,6 +2466,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c361.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c361.ome.zarr"
           }
         }
       }
@@ -2025,6 +2478,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c371.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c371.ome.zarr"
           }
         }
       }
@@ -2034,6 +2490,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c375.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c375.ome.zarr"
           }
         }
       }
@@ -2043,6 +2502,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c377.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c377.ome.zarr"
           }
         }
       }
@@ -2052,6 +2514,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c389.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c389.ome.zarr"
           }
         }
       }
@@ -2061,6 +2526,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c390.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c390.ome.zarr"
           }
         }
       }
@@ -2070,6 +2538,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c394.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c394.ome.zarr"
           }
         }
       }
@@ -2079,6 +2550,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c419.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c419.ome.zarr"
           }
         }
       }
@@ -2088,6 +2562,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c423.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c423.ome.zarr"
           }
         }
       }
@@ -2097,6 +2574,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c431.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c431.ome.zarr"
           }
         }
       }
@@ -2106,6 +2586,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c438.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c438.ome.zarr"
           }
         }
       }
@@ -2115,6 +2598,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid15_c449.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid15_c449.ome.zarr"
           }
         }
       }
@@ -2124,6 +2610,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c004.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c004.ome.zarr"
           }
         }
       }
@@ -2133,6 +2622,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c016.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c016.ome.zarr"
           }
         }
       }
@@ -2142,6 +2634,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c026.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c026.ome.zarr"
           }
         }
       }
@@ -2151,6 +2646,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c039.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c039.ome.zarr"
           }
         }
       }
@@ -2160,6 +2658,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c045.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c045.ome.zarr"
           }
         }
       }
@@ -2169,6 +2670,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c046.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c046.ome.zarr"
           }
         }
       }
@@ -2178,6 +2682,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c055.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c055.ome.zarr"
           }
         }
       }
@@ -2187,6 +2694,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c066.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c066.ome.zarr"
           }
         }
       }
@@ -2196,6 +2706,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c093.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c093.ome.zarr"
           }
         }
       }
@@ -2205,6 +2718,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c103.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c103.ome.zarr"
           }
         }
       }
@@ -2214,6 +2730,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c114.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c114.ome.zarr"
           }
         }
       }
@@ -2223,6 +2742,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c126.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c126.ome.zarr"
           }
         }
       }
@@ -2232,6 +2754,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c140.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c140.ome.zarr"
           }
         }
       }
@@ -2241,6 +2766,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c142.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c142.ome.zarr"
           }
         }
       }
@@ -2250,6 +2778,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c144.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c144.ome.zarr"
           }
         }
       }
@@ -2259,6 +2790,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c146.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c146.ome.zarr"
           }
         }
       }
@@ -2268,6 +2802,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c159.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c159.ome.zarr"
           }
         }
       }
@@ -2277,6 +2814,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c161.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c161.ome.zarr"
           }
         }
       }
@@ -2286,6 +2826,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c175.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c175.ome.zarr"
           }
         }
       }
@@ -2295,6 +2838,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c184.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c184.ome.zarr"
           }
         }
       }
@@ -2304,6 +2850,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c207.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c207.ome.zarr"
           }
         }
       }
@@ -2313,6 +2862,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c217.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c217.ome.zarr"
           }
         }
       }
@@ -2322,6 +2874,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c222.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c222.ome.zarr"
           }
         }
       }
@@ -2331,6 +2886,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c230.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c230.ome.zarr"
           }
         }
       }
@@ -2340,6 +2898,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c244.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c244.ome.zarr"
           }
         }
       }
@@ -2349,6 +2910,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c254.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c254.ome.zarr"
           }
         }
       }
@@ -2358,6 +2922,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c289.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c289.ome.zarr"
           }
         }
       }
@@ -2367,6 +2934,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c297.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c297.ome.zarr"
           }
         }
       }
@@ -2376,6 +2946,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c315.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c315.ome.zarr"
           }
         }
       }
@@ -2385,6 +2958,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c326.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c326.ome.zarr"
           }
         }
       }
@@ -2394,6 +2970,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c331.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c331.ome.zarr"
           }
         }
       }
@@ -2403,6 +2982,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c342.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c342.ome.zarr"
           }
         }
       }
@@ -2412,6 +2994,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c346.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c346.ome.zarr"
           }
         }
       }
@@ -2421,6 +3006,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c374.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c374.ome.zarr"
           }
         }
       }
@@ -2430,6 +3018,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c393.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c393.ome.zarr"
           }
         }
       }
@@ -2439,6 +3030,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c394.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c394.ome.zarr"
           }
         }
       }
@@ -2448,6 +3042,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c395.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c395.ome.zarr"
           }
         }
       }
@@ -2457,6 +3054,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c398.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c398.ome.zarr"
           }
         }
       }
@@ -2466,6 +3066,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c411.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c411.ome.zarr"
           }
         }
       }
@@ -2475,6 +3078,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c417.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c417.ome.zarr"
           }
         }
       }
@@ -2484,6 +3090,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c419.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c419.ome.zarr"
           }
         }
       }
@@ -2493,6 +3102,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c443.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c443.ome.zarr"
           }
         }
       }
@@ -2502,6 +3114,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c448.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c448.ome.zarr"
           }
         }
       }
@@ -2511,6 +3126,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid3_c459.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid3_c459.ome.zarr"
           }
         }
       }
@@ -2520,6 +3138,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c014.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c014.ome.zarr"
           }
         }
       }
@@ -2529,6 +3150,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c015.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c015.ome.zarr"
           }
         }
       }
@@ -2538,6 +3162,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c020.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c020.ome.zarr"
           }
         }
       }
@@ -2547,6 +3174,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c023.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c023.ome.zarr"
           }
         }
       }
@@ -2556,6 +3186,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c057.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c057.ome.zarr"
           }
         }
       }
@@ -2565,6 +3198,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c068.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c068.ome.zarr"
           }
         }
       }
@@ -2574,6 +3210,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c081.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c081.ome.zarr"
           }
         }
       }
@@ -2583,6 +3222,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c091.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c091.ome.zarr"
           }
         }
       }
@@ -2592,6 +3234,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c108.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c108.ome.zarr"
           }
         }
       }
@@ -2601,6 +3246,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c122.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c122.ome.zarr"
           }
         }
       }
@@ -2610,6 +3258,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c123.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c123.ome.zarr"
           }
         }
       }
@@ -2619,6 +3270,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c129.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c129.ome.zarr"
           }
         }
       }
@@ -2628,6 +3282,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c133.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c133.ome.zarr"
           }
         }
       }
@@ -2637,6 +3294,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c160.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c160.ome.zarr"
           }
         }
       }
@@ -2646,6 +3306,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c161.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c161.ome.zarr"
           }
         }
       }
@@ -2655,6 +3318,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c163.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c163.ome.zarr"
           }
         }
       }
@@ -2664,6 +3330,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c166.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c166.ome.zarr"
           }
         }
       }
@@ -2673,6 +3342,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c197.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c197.ome.zarr"
           }
         }
       }
@@ -2682,6 +3354,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c198.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c198.ome.zarr"
           }
         }
       }
@@ -2691,6 +3366,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c224.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c224.ome.zarr"
           }
         }
       }
@@ -2700,6 +3378,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c246.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c246.ome.zarr"
           }
         }
       }
@@ -2709,6 +3390,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c262.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c262.ome.zarr"
           }
         }
       }
@@ -2718,6 +3402,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c288.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c288.ome.zarr"
           }
         }
       }
@@ -2727,6 +3414,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c298.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c298.ome.zarr"
           }
         }
       }
@@ -2736,6 +3426,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c301.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c301.ome.zarr"
           }
         }
       }
@@ -2745,6 +3438,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c302.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c302.ome.zarr"
           }
         }
       }
@@ -2754,6 +3450,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c316.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c316.ome.zarr"
           }
         }
       }
@@ -2763,6 +3462,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c318.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c318.ome.zarr"
           }
         }
       }
@@ -2772,6 +3474,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c338.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c338.ome.zarr"
           }
         }
       }
@@ -2781,6 +3486,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c339.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c339.ome.zarr"
           }
         }
       }
@@ -2790,6 +3498,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c346.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c346.ome.zarr"
           }
         }
       }
@@ -2799,6 +3510,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid6_c357.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid6_c357.ome.zarr"
           }
         }
       }
@@ -2808,6 +3522,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c003.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c003.ome.zarr"
           }
         }
       }
@@ -2817,6 +3534,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c030.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c030.ome.zarr"
           }
         }
       }
@@ -2826,6 +3546,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c032.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c032.ome.zarr"
           }
         }
       }
@@ -2835,6 +3558,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c056.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c056.ome.zarr"
           }
         }
       }
@@ -2844,6 +3570,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c059.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c059.ome.zarr"
           }
         }
       }
@@ -2853,6 +3582,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c066.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c066.ome.zarr"
           }
         }
       }
@@ -2862,6 +3594,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c072.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c072.ome.zarr"
           }
         }
       }
@@ -2871,6 +3606,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c097.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c097.ome.zarr"
           }
         }
       }
@@ -2880,6 +3618,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c099.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c099.ome.zarr"
           }
         }
       }
@@ -2889,6 +3630,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c103.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c103.ome.zarr"
           }
         }
       }
@@ -2898,6 +3642,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c105.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c105.ome.zarr"
           }
         }
       }
@@ -2907,6 +3654,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c111.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c111.ome.zarr"
           }
         }
       }
@@ -2916,6 +3666,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c114.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c114.ome.zarr"
           }
         }
       }
@@ -2925,6 +3678,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c115.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c115.ome.zarr"
           }
         }
       }
@@ -2934,6 +3690,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c140.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c140.ome.zarr"
           }
         }
       }
@@ -2943,6 +3702,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c166.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c166.ome.zarr"
           }
         }
       }
@@ -2952,6 +3714,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c168.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c168.ome.zarr"
           }
         }
       }
@@ -2961,6 +3726,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c197.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c197.ome.zarr"
           }
         }
       }
@@ -2970,6 +3738,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c199.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c199.ome.zarr"
           }
         }
       }
@@ -2979,6 +3750,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c209.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c209.ome.zarr"
           }
         }
       }
@@ -2988,6 +3762,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c215.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c215.ome.zarr"
           }
         }
       }
@@ -2997,6 +3774,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c232.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c232.ome.zarr"
           }
         }
       }
@@ -3006,6 +3786,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c257.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c257.ome.zarr"
           }
         }
       }
@@ -3015,6 +3798,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c274.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c274.ome.zarr"
           }
         }
       }
@@ -3024,6 +3810,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c305.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c305.ome.zarr"
           }
         }
       }
@@ -3033,6 +3822,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c316.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c316.ome.zarr"
           }
         }
       }
@@ -3042,6 +3834,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c323.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c323.ome.zarr"
           }
         }
       }
@@ -3051,6 +3846,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c324.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c324.ome.zarr"
           }
         }
       }
@@ -3060,6 +3858,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c325.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c325.ome.zarr"
           }
         }
       }
@@ -3069,6 +3870,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c343.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c343.ome.zarr"
           }
         }
       }
@@ -3078,6 +3882,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c363.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c363.ome.zarr"
           }
         }
       }
@@ -3087,6 +3894,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_grid9_c399.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_grid9_c399.ome.zarr"
           }
         }
       }
@@ -3096,6 +3906,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c017.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c017.ome.zarr"
           }
         }
       }
@@ -3105,6 +3918,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_CD21_c024.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_CD21_c024.ome.zarr"
           }
         }
       }
@@ -3114,6 +3930,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c040.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c040.ome.zarr"
           }
         }
       }
@@ -3123,6 +3942,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c059.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c059.ome.zarr"
           }
         }
       }
@@ -3132,6 +3954,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c083.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c083.ome.zarr"
           }
         }
       }
@@ -3141,6 +3966,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c100.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c100.ome.zarr"
           }
         }
       }
@@ -3150,6 +3978,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c113.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c113.ome.zarr"
           }
         }
       }
@@ -3159,6 +3990,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c119.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c119.ome.zarr"
           }
         }
       }
@@ -3168,6 +4002,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c138.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c138.ome.zarr"
           }
         }
       }
@@ -3177,6 +4014,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c166.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c166.ome.zarr"
           }
         }
       }
@@ -3186,6 +4026,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c173.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c173.ome.zarr"
           }
         }
       }
@@ -3195,6 +4038,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c175.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c175.ome.zarr"
           }
         }
       }
@@ -3204,6 +4050,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c203.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c203.ome.zarr"
           }
         }
       }
@@ -3213,6 +4062,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c235.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c235.ome.zarr"
           }
         }
       }
@@ -3222,6 +4074,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c239.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c239.ome.zarr"
           }
         }
       }
@@ -3231,6 +4086,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c246.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c246.ome.zarr"
           }
         }
       }
@@ -3240,6 +4098,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c249.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c249.ome.zarr"
           }
         }
       }
@@ -3249,6 +4110,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c298.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c298.ome.zarr"
           }
         }
       }
@@ -3258,6 +4122,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c299.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c299.ome.zarr"
           }
         }
       }
@@ -3267,6 +4134,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c301.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c301.ome.zarr"
           }
         }
       }
@@ -3276,6 +4146,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c308.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c308.ome.zarr"
           }
         }
       }
@@ -3285,6 +4158,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c328.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c328.ome.zarr"
           }
         }
       }
@@ -3294,6 +4170,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c350.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c350.ome.zarr"
           }
         }
       }
@@ -3303,6 +4182,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c354.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c354.ome.zarr"
           }
         }
       }
@@ -3312,6 +4194,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c377.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c377.ome.zarr"
           }
         }
       }
@@ -3321,6 +4206,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c396.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c396.ome.zarr"
           }
         }
       }
@@ -3330,6 +4218,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c404.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c404.ome.zarr"
           }
         }
       }
@@ -3339,6 +4230,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c410.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c410.ome.zarr"
           }
         }
       }
@@ -3348,6 +4242,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c429.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c429.ome.zarr"
           }
         }
       }
@@ -3357,6 +4254,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c452.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c452.ome.zarr"
           }
         }
       }
@@ -3366,6 +4266,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c460.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c460.ome.zarr"
           }
         }
       }
@@ -3375,6 +4278,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c506.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c506.ome.zarr"
           }
         }
       }
@@ -3384,6 +4290,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c510.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c510.ome.zarr"
           }
         }
       }
@@ -3393,6 +4302,9 @@
         "imageData": {
           "ome.zarr": {
             "relativePath": "images/ome-zarr/MMRR_07_gridc21_c511.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "s3.embl.de/centriole-tomo/tomo/images/ome-zarr/MMRR_07_gridc21_c511.ome.zarr"
           }
         }
       }
@@ -47483,7 +48395,7 @@
       "uiSelectionGroup": "Centrioles"
     },
     "MMRR_07_gridc21_c166": {
-      "isExclusive": true,
+      "isExclusive": false,
       "sourceDisplays": [
         {
           "imageDisplay": {
@@ -51423,27 +52335,6 @@
         }
       ],
       "uiSelectionGroup": "Centrioles"
-    },
-    "MMRR_07_gridc21_c166": {
-      "isExclusive": false,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "white",
-            "contrastLimits": [
-              -127.0,
-              127.0
-            ],
-            "name": "MMRR_07_gridc21_c166",
-            "opacity": 1.0,
-            "sources": [
-              "MMRR_07_gridc21_c166"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "Tomograms"
     },
     "default": {
       "isExclusive": true,
