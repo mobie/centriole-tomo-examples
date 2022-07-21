@@ -81,20 +81,22 @@ def mobieconvert(infile):
                     chunks,
                     file_format="ome.zarr",
                     target=target,
-                    max_jobs=20,
+                    max_jobs=8,
                     menu_name='tomograms',
                     tmp_folder='/scratch/schorb/mobie/'+base,
                     int_to_uint=True
                     )
     except:
-        print('re-doing '+base)
-        with open('./missingjoins.txt','a+') as f:
-            f.write(base+'  -   '+time.ctime())
-        os.system('rm -rf /scratch/schorb/mobie/'+base)
-        mobieconvert(infile)
+        if not os.path.exists(os.path.join(outdir,'data','tomo','images',
+                                           outformat,base + '.' + outformat,'s6')):
+            print('re-doing '+base)
+            with open('./missingjoins.txt','a+') as f:
+                f.write(base+'  -   '+time.ctime())
+            os.system('rm -rf /scratch/schorb/mobie/'+base)
+            mobieconvert(infile)
 
 
-with Pool(20) as p:
+with Pool(30) as p:
     p.map(mobieconvert, joinlist)
 
 
