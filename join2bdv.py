@@ -70,7 +70,11 @@ def mobieconvert(infile):
     del (mfile)
     resolution = [tomopx] * 3
 
-    try:
+
+    if not os.path.exists(os.path.join(outdir, 'tomo', 'images',
+                                           outformat.replace('.', '-').replace('.','-'),
+                                       base + '.' + outformat, 's6')):
+
         mobie.add_image(infile,
                     "data",
                     outdir,
@@ -86,14 +90,6 @@ def mobieconvert(infile):
                     tmp_folder='/scratch/schorb/mobie/'+base,
                     int_to_uint=True
                     )
-    except:
-        if not os.path.exists(os.path.join(outdir,'data','tomo','images',
-                                           outformat,base + '.' + outformat,'s6')):
-            print('re-doing '+base)
-            with open('./missingjoins.txt','a+') as f:
-                f.write(base+'  -   '+time.ctime())
-            os.system('rm -rf /scratch/schorb/mobie/'+base)
-            mobieconvert(infile)
 
 
 with Pool(30) as p:
