@@ -58,22 +58,23 @@ def mobieconvert(infile):
     #     time.sleep(break_interval)
     # else:
     #     time.sleep(submit_interval)
-
-    print('converting ' + base + ' into MoBIE format after waiting for '+str(sleeptime)+'seconds.')
-
-    time.sleep(sleeptime)
-
-    # get pixel size
-
-    mfile = mrc.mmap(infile, permissive='True')
-    tomopx = mfile.voxel_size.x / 10000  # in um
-    del (mfile)
-    resolution = [tomopx] * 3
-
-
     if not os.path.exists(os.path.join(outdir, 'tomo', 'images',
-                                           outformat.replace('.', '-').replace('.','-'),
+                                       outformat.replace('.', '-').replace('.', '-'),
                                        base + '.' + outformat, 's6')):
+
+        print('converting ' + base + ' into MoBIE format after waiting for '+str(sleeptime)+'seconds.')
+
+        time.sleep(sleeptime)
+
+        # get pixel size
+
+        mfile = mrc.mmap(infile, permissive='True')
+        tomopx = mfile.voxel_size.x / 10000  # in um
+        del (mfile)
+        resolution = [tomopx] * 3
+
+
+
 
         mobie.add_image(infile,
                     "data",
@@ -90,6 +91,9 @@ def mobieconvert(infile):
                     tmp_folder='/scratch/schorb/mobie/'+base,
                     int_to_uint=True
                     )
+
+    else:
+        print('Skipping ' + base + '. Already found converted data.')
 
 
 with Pool(20) as p:
