@@ -86,7 +86,7 @@ def mobieconvert(infile):
                     chunks,
                     file_format="ome.zarr",
                     target=target,
-                    max_jobs=12,
+                    max_jobs=20,
                     menu_name='tomograms',
                     tmp_folder='/scratch/schorb/mobie/'+base,
                     int_to_uint=True
@@ -96,7 +96,7 @@ def mobieconvert(infile):
         print('Skipping ' + base + '. Already found converted data.')
 
 
-with Pool(20) as p:
+with Pool(12) as p:
     p.map(mobieconvert, joinlist)
 
 
