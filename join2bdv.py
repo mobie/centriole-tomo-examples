@@ -58,9 +58,10 @@ def mobieconvert(infile):
     #     time.sleep(break_interval)
     # else:
     #     time.sleep(submit_interval)
-    if not os.path.exists(os.path.join(outdir, 'tomo', 'images',
-                                       outformat.replace('.', '-').replace('.', '-'),
-                                       base + '.' + outformat, 's6')):
+    # if not os.path.exists(os.path.join(outdir, 'tomo', 'images',
+    #                                    outformat.replace('.', '-').replace('.', '-'),
+    #                                    base + '.' + outformat, 's6')):
+    if not base in mobie.metadata.read_dataset_metadata(os.path.join(outdir,'tomo'))['sources'].keys():
 
         print('converting ' + base + ' into MoBIE format after waiting for '+str(sleeptime)+'seconds.')
 
