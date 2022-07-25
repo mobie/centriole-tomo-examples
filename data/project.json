@@ -3,10 +3,7 @@
     "tomo"
   ],
   "defaultDataset": "tomo",
-  "description": "Centriole morphology dataset.",
   "imageDataFormats": [
-    "bdv.n5.s3",
-    "ome.zarr.s3",
     "ome.zarr"
   ],
   "specVersion": "0.2.0"

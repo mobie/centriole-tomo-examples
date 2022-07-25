@@ -74,9 +74,6 @@ def mobieconvert(infile):
         del (mfile)
         resolution = [tomopx] * 3
 
-
-
-
         mobie.add_image(infile,
                     "data",
                     outdir,
