@@ -49730,7 +49730,7 @@
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c017": {
+    "MMRR_07_gridc21_c017": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -49740,17 +49740,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c017",
+            "name": "MMRR_07_gridc21_c017",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c017"
+              "MMRR_07_gridc21_c017"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c017_c1_crop": {
+    "MMRR_07_gridc21_c017_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -49760,10 +49760,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c017_c1",
+            "name": "MMRR_07_gridc21_c017_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c017_c1_crop"
+              "MMRR_07_gridc21_c017_c1_crop"
             ]
           }
         }
@@ -49786,10 +49786,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c017_c1_tfm"
+              "MMRR_07_gridc21_c017_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c017"
+              "MMRR_07_gridc21_c017"
             ]
           }
         },
@@ -49806,17 +49806,17 @@
               -2.1306736242580318
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c017_c1_crop"
+              "MMRR_07_gridc21_c017_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c017_c1_tfm"
+              "MMRR_07_gridc21_c017_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c017_c2_crop": {
+    "MMRR_07_gridc21_c017_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -49826,10 +49826,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c017_c2",
+            "name": "MMRR_07_gridc21_c017_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c017_c2_crop"
+              "MMRR_07_gridc21_c017_c2_crop"
             ]
           }
         }
@@ -49852,10 +49852,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c017_c2_tfm"
+              "MMRR_07_gridc21_c017_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c017"
+              "MMRR_07_gridc21_c017"
             ]
           }
         },
@@ -49872,17 +49872,17 @@
               0.5127166794176148
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c017_c2_crop"
+              "MMRR_07_gridc21_c017_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c017_c2_tfm"
+              "MMRR_07_gridc21_c017_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c024": {
+    "MMRR_07_gridc21_c024": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -49892,17 +49892,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c024",
+            "name": "MMRR_07_gridc21_c024",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c024"
+              "MMRR_07_gridc21_c024"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c024_c1_crop": {
+    "MMRR_07_gridc21_c024_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -49912,10 +49912,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c024_c1",
+            "name": "MMRR_07_gridc21_c024_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c024_c1_crop"
+              "MMRR_07_gridc21_c024_c1_crop"
             ]
           }
         }
@@ -49938,10 +49938,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c024_c1_tfm"
+              "MMRR_07_gridc21_c024_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c024"
+              "MMRR_07_gridc21_c024"
             ]
           }
         },
@@ -49958,17 +49958,17 @@
               1.2069191905488097
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c024_c1_crop"
+              "MMRR_07_gridc21_c024_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c024_c1_tfm"
+              "MMRR_07_gridc21_c024_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c024_c2_crop": {
+    "MMRR_07_gridc21_c024_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -49978,10 +49978,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c024_c2",
+            "name": "MMRR_07_gridc21_c024_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c024_c2_crop"
+              "MMRR_07_gridc21_c024_c2_crop"
             ]
           }
         }
@@ -50004,10 +50004,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c024_c2_tfm"
+              "MMRR_07_gridc21_c024_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c024"
+              "MMRR_07_gridc21_c024"
             ]
           }
         },
@@ -50024,17 +50024,17 @@
               -0.2257653718723283
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c024_c2_crop"
+              "MMRR_07_gridc21_c024_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c024_c2_tfm"
+              "MMRR_07_gridc21_c024_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c040": {
+    "MMRR_07_gridc21_c040": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50044,17 +50044,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c040",
+            "name": "MMRR_07_gridc21_c040",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c040"
+              "MMRR_07_gridc21_c040"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c040_c1_crop": {
+    "MMRR_07_gridc21_c040_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50064,10 +50064,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c040_c1",
+            "name": "MMRR_07_gridc21_c040_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c040_c1_crop"
+              "MMRR_07_gridc21_c040_c1_crop"
             ]
           }
         }
@@ -50090,10 +50090,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c040_c1_tfm"
+              "MMRR_07_gridc21_c040_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c040"
+              "MMRR_07_gridc21_c040"
             ]
           }
         },
@@ -50110,17 +50110,17 @@
               -0.01949032169225534
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c040_c1_crop"
+              "MMRR_07_gridc21_c040_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c040_c1_tfm"
+              "MMRR_07_gridc21_c040_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c059": {
+    "MMRR_07_gridc21_c059": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50130,17 +50130,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c059",
+            "name": "MMRR_07_gridc21_c059",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c059"
+              "MMRR_07_gridc21_c059"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c059_c1_crop": {
+    "MMRR_07_gridc21_c059_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50150,10 +50150,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c059_c1",
+            "name": "MMRR_07_gridc21_c059_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c059_c1_crop"
+              "MMRR_07_gridc21_c059_c1_crop"
             ]
           }
         }
@@ -50176,10 +50176,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c059_c1_tfm"
+              "MMRR_07_gridc21_c059_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c059"
+              "MMRR_07_gridc21_c059"
             ]
           }
         },
@@ -50196,17 +50196,17 @@
               -0.9186293818799789
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c059_c1_crop"
+              "MMRR_07_gridc21_c059_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c059_c1_tfm"
+              "MMRR_07_gridc21_c059_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c059_c2_crop": {
+    "MMRR_07_gridc21_c059_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50216,10 +50216,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c059_c2",
+            "name": "MMRR_07_gridc21_c059_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c059_c2_crop"
+              "MMRR_07_gridc21_c059_c2_crop"
             ]
           }
         }
@@ -50242,10 +50242,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c059_c2_tfm"
+              "MMRR_07_gridc21_c059_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c059"
+              "MMRR_07_gridc21_c059"
             ]
           }
         },
@@ -50262,17 +50262,17 @@
               -0.16989973590788743
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c059_c2_crop"
+              "MMRR_07_gridc21_c059_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c059_c2_tfm"
+              "MMRR_07_gridc21_c059_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c083": {
+    "MMRR_07_gridc21_c083": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50282,17 +50282,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c083",
+            "name": "MMRR_07_gridc21_c083",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c083"
+              "MMRR_07_gridc21_c083"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c083_c1_crop": {
+    "MMRR_07_gridc21_c083_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50302,10 +50302,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c083_c1",
+            "name": "MMRR_07_gridc21_c083_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c083_c1_crop"
+              "MMRR_07_gridc21_c083_c1_crop"
             ]
           }
         }
@@ -50328,10 +50328,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c083_c1_tfm"
+              "MMRR_07_gridc21_c083_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c083"
+              "MMRR_07_gridc21_c083"
             ]
           }
         },
@@ -50348,17 +50348,17 @@
               -0.16230797949444248
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c083_c1_crop"
+              "MMRR_07_gridc21_c083_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c083_c1_tfm"
+              "MMRR_07_gridc21_c083_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c100": {
+    "MMRR_07_gridc21_c100": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50368,17 +50368,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c100",
+            "name": "MMRR_07_gridc21_c100",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c100"
+              "MMRR_07_gridc21_c100"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c100_c1_crop": {
+    "MMRR_07_gridc21_c100_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50388,10 +50388,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c100_c1",
+            "name": "MMRR_07_gridc21_c100_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c100_c1_crop"
+              "MMRR_07_gridc21_c100_c1_crop"
             ]
           }
         }
@@ -50414,10 +50414,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c100_c1_tfm"
+              "MMRR_07_gridc21_c100_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c100"
+              "MMRR_07_gridc21_c100"
             ]
           }
         },
@@ -50434,17 +50434,17 @@
               0.40296960581947316
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c100_c1_crop"
+              "MMRR_07_gridc21_c100_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c100_c1_tfm"
+              "MMRR_07_gridc21_c100_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c100_c2_crop": {
+    "MMRR_07_gridc21_c100_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50454,10 +50454,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c100_c2",
+            "name": "MMRR_07_gridc21_c100_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c100_c2_crop"
+              "MMRR_07_gridc21_c100_c2_crop"
             ]
           }
         }
@@ -50480,10 +50480,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c100_c2_tfm"
+              "MMRR_07_gridc21_c100_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c100"
+              "MMRR_07_gridc21_c100"
             ]
           }
         },
@@ -50500,17 +50500,17 @@
               -0.07107265047615957
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c100_c2_crop"
+              "MMRR_07_gridc21_c100_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c100_c2_tfm"
+              "MMRR_07_gridc21_c100_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c113": {
+    "MMRR_07_gridc21_c113": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50520,17 +50520,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c113",
+            "name": "MMRR_07_gridc21_c113",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c113"
+              "MMRR_07_gridc21_c113"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c113_c1_crop": {
+    "MMRR_07_gridc21_c113_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50540,10 +50540,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c113_c1",
+            "name": "MMRR_07_gridc21_c113_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c113_c1_crop"
+              "MMRR_07_gridc21_c113_c1_crop"
             ]
           }
         }
@@ -50566,10 +50566,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c113_c1_tfm"
+              "MMRR_07_gridc21_c113_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c113"
+              "MMRR_07_gridc21_c113"
             ]
           }
         },
@@ -50586,17 +50586,17 @@
               -0.0996839215868634
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c113_c1_crop"
+              "MMRR_07_gridc21_c113_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c113_c1_tfm"
+              "MMRR_07_gridc21_c113_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c113_c2_crop": {
+    "MMRR_07_gridc21_c113_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50606,10 +50606,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c113_c2",
+            "name": "MMRR_07_gridc21_c113_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c113_c2_crop"
+              "MMRR_07_gridc21_c113_c2_crop"
             ]
           }
         }
@@ -50632,10 +50632,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c113_c2_tfm"
+              "MMRR_07_gridc21_c113_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c113"
+              "MMRR_07_gridc21_c113"
             ]
           }
         },
@@ -50652,17 +50652,17 @@
               1.3655521157844912
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c113_c2_crop"
+              "MMRR_07_gridc21_c113_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c113_c2_tfm"
+              "MMRR_07_gridc21_c113_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c113_c3_crop": {
+    "MMRR_07_gridc21_c113_c3_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50672,10 +50672,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c113_c3",
+            "name": "MMRR_07_gridc21_c113_c3",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c113_c3_crop"
+              "MMRR_07_gridc21_c113_c3_crop"
             ]
           }
         }
@@ -50698,10 +50698,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c113_c3_tfm"
+              "MMRR_07_gridc21_c113_c3_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c113"
+              "MMRR_07_gridc21_c113"
             ]
           }
         },
@@ -50718,17 +50718,17 @@
               -0.47819079990386965
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c113_c3_crop"
+              "MMRR_07_gridc21_c113_c3_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c113_c3_tfm"
+              "MMRR_07_gridc21_c113_c3_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c113_c4_crop": {
+    "MMRR_07_gridc21_c113_c4_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50738,10 +50738,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c113_c4",
+            "name": "MMRR_07_gridc21_c113_c4",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c113_c4_crop"
+              "MMRR_07_gridc21_c113_c4_crop"
             ]
           }
         }
@@ -50764,10 +50764,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c113_c4_tfm"
+              "MMRR_07_gridc21_c113_c4_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c113"
+              "MMRR_07_gridc21_c113"
             ]
           }
         },
@@ -50784,17 +50784,17 @@
               -1.033436027621344
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c113_c4_crop"
+              "MMRR_07_gridc21_c113_c4_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c113_c4_tfm"
+              "MMRR_07_gridc21_c113_c4_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c119": {
+    "MMRR_07_gridc21_c119": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50804,17 +50804,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c119",
+            "name": "MMRR_07_gridc21_c119",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c119"
+              "MMRR_07_gridc21_c119"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c119_c1_crop": {
+    "MMRR_07_gridc21_c119_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50824,10 +50824,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c119_c1",
+            "name": "MMRR_07_gridc21_c119_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c119_c1_crop"
+              "MMRR_07_gridc21_c119_c1_crop"
             ]
           }
         }
@@ -50850,10 +50850,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c119_c1_tfm"
+              "MMRR_07_gridc21_c119_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c119"
+              "MMRR_07_gridc21_c119"
             ]
           }
         },
@@ -50870,17 +50870,17 @@
               -0.6952507734849489
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c119_c1_crop"
+              "MMRR_07_gridc21_c119_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c119_c1_tfm"
+              "MMRR_07_gridc21_c119_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c119_c2_crop": {
+    "MMRR_07_gridc21_c119_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50890,10 +50890,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c119_c2",
+            "name": "MMRR_07_gridc21_c119_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c119_c2_crop"
+              "MMRR_07_gridc21_c119_c2_crop"
             ]
           }
         }
@@ -50916,10 +50916,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c119_c2_tfm"
+              "MMRR_07_gridc21_c119_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c119"
+              "MMRR_07_gridc21_c119"
             ]
           }
         },
@@ -50936,17 +50936,17 @@
               -0.10713393179077207
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c119_c2_crop"
+              "MMRR_07_gridc21_c119_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c119_c2_tfm"
+              "MMRR_07_gridc21_c119_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c138": {
+    "MMRR_07_gridc21_c138": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50956,17 +50956,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c138",
+            "name": "MMRR_07_gridc21_c138",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c138"
+              "MMRR_07_gridc21_c138"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c138_c1_crop": {
+    "MMRR_07_gridc21_c138_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -50976,10 +50976,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c138_c1",
+            "name": "MMRR_07_gridc21_c138_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c138_c1_crop"
+              "MMRR_07_gridc21_c138_c1_crop"
             ]
           }
         }
@@ -51002,10 +51002,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c138_c1_tfm"
+              "MMRR_07_gridc21_c138_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c138"
+              "MMRR_07_gridc21_c138"
             ]
           }
         },
@@ -51022,17 +51022,17 @@
               -2.1067392893041372
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c138_c1_crop"
+              "MMRR_07_gridc21_c138_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c138_c1_tfm"
+              "MMRR_07_gridc21_c138_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c138_c2_crop": {
+    "MMRR_07_gridc21_c138_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51042,10 +51042,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c138_c2",
+            "name": "MMRR_07_gridc21_c138_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c138_c2_crop"
+              "MMRR_07_gridc21_c138_c2_crop"
             ]
           }
         }
@@ -51068,10 +51068,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c138_c2_tfm"
+              "MMRR_07_gridc21_c138_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c138"
+              "MMRR_07_gridc21_c138"
             ]
           }
         },
@@ -51088,17 +51088,17 @@
               -0.4678165466525448
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c138_c2_crop"
+              "MMRR_07_gridc21_c138_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c138_c2_tfm"
+              "MMRR_07_gridc21_c138_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c166": {
+    "MMRR_07_gridc21_c166": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51108,17 +51108,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c166",
+            "name": "MMRR_07_gridc21_c166",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c166"
+              "MMRR_07_gridc21_c166"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c166_c1_crop": {
+    "MMRR_07_gridc21_c166_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51128,10 +51128,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c166_c1",
+            "name": "MMRR_07_gridc21_c166_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c166_c1_crop"
+              "MMRR_07_gridc21_c166_c1_crop"
             ]
           }
         }
@@ -51154,10 +51154,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c166_c1_tfm"
+              "MMRR_07_gridc21_c166_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c166"
+              "MMRR_07_gridc21_c166"
             ]
           }
         },
@@ -51174,17 +51174,17 @@
               0.32558011770417494
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c166_c1_crop"
+              "MMRR_07_gridc21_c166_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c166_c1_tfm"
+              "MMRR_07_gridc21_c166_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c166_c2_crop": {
+    "MMRR_07_gridc21_c166_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51194,10 +51194,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c166_c2",
+            "name": "MMRR_07_gridc21_c166_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c166_c2_crop"
+              "MMRR_07_gridc21_c166_c2_crop"
             ]
           }
         }
@@ -51220,10 +51220,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c166_c2_tfm"
+              "MMRR_07_gridc21_c166_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c166"
+              "MMRR_07_gridc21_c166"
             ]
           }
         },
@@ -51240,17 +51240,17 @@
               -1.1519770990298865
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c166_c2_crop"
+              "MMRR_07_gridc21_c166_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c166_c2_tfm"
+              "MMRR_07_gridc21_c166_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c173": {
+    "MMRR_07_gridc21_c173": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51260,17 +51260,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c173",
+            "name": "MMRR_07_gridc21_c173",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c173"
+              "MMRR_07_gridc21_c173"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c173_c1a_crop": {
+    "MMRR_07_gridc21_c173_c1a_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51280,10 +51280,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c173_c1a",
+            "name": "MMRR_07_gridc21_c173_c1a",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c173_c1a_crop"
+              "MMRR_07_gridc21_c173_c1a_crop"
             ]
           }
         }
@@ -51306,10 +51306,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c173_c1a_tfm"
+              "MMRR_07_gridc21_c173_c1a_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c173"
+              "MMRR_07_gridc21_c173"
             ]
           }
         },
@@ -51326,17 +51326,17 @@
               -0.030997244494692877
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c173_c1a_crop"
+              "MMRR_07_gridc21_c173_c1a_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c173_c1a_tfm"
+              "MMRR_07_gridc21_c173_c1a_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c173_c1b_crop": {
+    "MMRR_07_gridc21_c173_c1b_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51346,10 +51346,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c173_c1b",
+            "name": "MMRR_07_gridc21_c173_c1b",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c173_c1b_crop"
+              "MMRR_07_gridc21_c173_c1b_crop"
             ]
           }
         }
@@ -51372,10 +51372,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c173_c1b_tfm"
+              "MMRR_07_gridc21_c173_c1b_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c173"
+              "MMRR_07_gridc21_c173"
             ]
           }
         },
@@ -51392,17 +51392,17 @@
               0.2571236087454075
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c173_c1b_crop"
+              "MMRR_07_gridc21_c173_c1b_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c173_c1b_tfm"
+              "MMRR_07_gridc21_c173_c1b_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c173_c2_crop": {
+    "MMRR_07_gridc21_c173_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51412,10 +51412,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c173_c2",
+            "name": "MMRR_07_gridc21_c173_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c173_c2_crop"
+              "MMRR_07_gridc21_c173_c2_crop"
             ]
           }
         }
@@ -51438,10 +51438,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c173_c2_tfm"
+              "MMRR_07_gridc21_c173_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c173"
+              "MMRR_07_gridc21_c173"
             ]
           }
         },
@@ -51458,17 +51458,17 @@
               0.21285932783561345
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c173_c2_crop"
+              "MMRR_07_gridc21_c173_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c173_c2_tfm"
+              "MMRR_07_gridc21_c173_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c173_c3_crop": {
+    "MMRR_07_gridc21_c173_c3_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51478,10 +51478,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c173_c3",
+            "name": "MMRR_07_gridc21_c173_c3",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c173_c3_crop"
+              "MMRR_07_gridc21_c173_c3_crop"
             ]
           }
         }
@@ -51504,10 +51504,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c173_c3_tfm"
+              "MMRR_07_gridc21_c173_c3_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c173"
+              "MMRR_07_gridc21_c173"
             ]
           }
         },
@@ -51524,17 +51524,17 @@
               -2.0644044611604047
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c173_c3_crop"
+              "MMRR_07_gridc21_c173_c3_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c173_c3_tfm"
+              "MMRR_07_gridc21_c173_c3_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c175": {
+    "MMRR_07_gridc21_c175": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51544,17 +51544,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c175",
+            "name": "MMRR_07_gridc21_c175",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c175"
+              "MMRR_07_gridc21_c175"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c175_c1_crop": {
+    "MMRR_07_gridc21_c175_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51564,10 +51564,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c175_c1",
+            "name": "MMRR_07_gridc21_c175_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c175_c1_crop"
+              "MMRR_07_gridc21_c175_c1_crop"
             ]
           }
         }
@@ -51590,10 +51590,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c175_c1_tfm"
+              "MMRR_07_gridc21_c175_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c175"
+              "MMRR_07_gridc21_c175"
             ]
           }
         },
@@ -51610,17 +51610,17 @@
               -0.12206590418677676
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c175_c1_crop"
+              "MMRR_07_gridc21_c175_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c175_c1_tfm"
+              "MMRR_07_gridc21_c175_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c175_c2_crop": {
+    "MMRR_07_gridc21_c175_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51630,10 +51630,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c175_c2",
+            "name": "MMRR_07_gridc21_c175_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c175_c2_crop"
+              "MMRR_07_gridc21_c175_c2_crop"
             ]
           }
         }
@@ -51656,10 +51656,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c175_c2_tfm"
+              "MMRR_07_gridc21_c175_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c175"
+              "MMRR_07_gridc21_c175"
             ]
           }
         },
@@ -51676,17 +51676,17 @@
               0.3132348321451611
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c175_c2_crop"
+              "MMRR_07_gridc21_c175_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c175_c2_tfm"
+              "MMRR_07_gridc21_c175_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c203": {
+    "MMRR_07_gridc21_c203": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51696,17 +51696,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c203",
+            "name": "MMRR_07_gridc21_c203",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c203"
+              "MMRR_07_gridc21_c203"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c203_c1_crop": {
+    "MMRR_07_gridc21_c203_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51716,10 +51716,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c203_c1",
+            "name": "MMRR_07_gridc21_c203_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c203_c1_crop"
+              "MMRR_07_gridc21_c203_c1_crop"
             ]
           }
         }
@@ -51742,10 +51742,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c203_c1_tfm"
+              "MMRR_07_gridc21_c203_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c203"
+              "MMRR_07_gridc21_c203"
             ]
           }
         },
@@ -51762,17 +51762,17 @@
               -0.7263769547323121
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c203_c1_crop"
+              "MMRR_07_gridc21_c203_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c203_c1_tfm"
+              "MMRR_07_gridc21_c203_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c203_c2_crop": {
+    "MMRR_07_gridc21_c203_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51782,10 +51782,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c203_c2",
+            "name": "MMRR_07_gridc21_c203_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c203_c2_crop"
+              "MMRR_07_gridc21_c203_c2_crop"
             ]
           }
         }
@@ -51808,10 +51808,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c203_c2_tfm"
+              "MMRR_07_gridc21_c203_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c203"
+              "MMRR_07_gridc21_c203"
             ]
           }
         },
@@ -51828,17 +51828,17 @@
               -1.0695733878574591
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c203_c2_crop"
+              "MMRR_07_gridc21_c203_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c203_c2_tfm"
+              "MMRR_07_gridc21_c203_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c235": {
+    "MMRR_07_gridc21_c235": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51848,17 +51848,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c235",
+            "name": "MMRR_07_gridc21_c235",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c235"
+              "MMRR_07_gridc21_c235"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c235_c1_crop": {
+    "MMRR_07_gridc21_c235_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51868,10 +51868,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c235_c1",
+            "name": "MMRR_07_gridc21_c235_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c235_c1_crop"
+              "MMRR_07_gridc21_c235_c1_crop"
             ]
           }
         }
@@ -51894,10 +51894,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c235_c1_tfm"
+              "MMRR_07_gridc21_c235_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c235"
+              "MMRR_07_gridc21_c235"
             ]
           }
         },
@@ -51914,17 +51914,17 @@
               -0.40496187878041295
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c235_c1_crop"
+              "MMRR_07_gridc21_c235_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c235_c1_tfm"
+              "MMRR_07_gridc21_c235_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c235_c2_crop": {
+    "MMRR_07_gridc21_c235_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -51934,10 +51934,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c235_c2",
+            "name": "MMRR_07_gridc21_c235_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c235_c2_crop"
+              "MMRR_07_gridc21_c235_c2_crop"
             ]
           }
         }
@@ -51960,10 +51960,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c235_c2_tfm"
+              "MMRR_07_gridc21_c235_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c235"
+              "MMRR_07_gridc21_c235"
             ]
           }
         },
@@ -51980,17 +51980,17 @@
               0.29761106993879916
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c235_c2_crop"
+              "MMRR_07_gridc21_c235_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c235_c2_tfm"
+              "MMRR_07_gridc21_c235_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c239": {
+    "MMRR_07_gridc21_c239": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52000,17 +52000,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c239",
+            "name": "MMRR_07_gridc21_c239",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c239"
+              "MMRR_07_gridc21_c239"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c239_c1_crop": {
+    "MMRR_07_gridc21_c239_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52020,10 +52020,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c239_c1",
+            "name": "MMRR_07_gridc21_c239_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c239_c1_crop"
+              "MMRR_07_gridc21_c239_c1_crop"
             ]
           }
         }
@@ -52046,10 +52046,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c239_c1_tfm"
+              "MMRR_07_gridc21_c239_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c239"
+              "MMRR_07_gridc21_c239"
             ]
           }
         },
@@ -52066,17 +52066,17 @@
               -0.00870486706075757
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c239_c1_crop"
+              "MMRR_07_gridc21_c239_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c239_c1_tfm"
+              "MMRR_07_gridc21_c239_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c239_c2_crop": {
+    "MMRR_07_gridc21_c239_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52086,10 +52086,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c239_c2",
+            "name": "MMRR_07_gridc21_c239_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c239_c2_crop"
+              "MMRR_07_gridc21_c239_c2_crop"
             ]
           }
         }
@@ -52112,10 +52112,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c239_c2_tfm"
+              "MMRR_07_gridc21_c239_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c239"
+              "MMRR_07_gridc21_c239"
             ]
           }
         },
@@ -52132,17 +52132,17 @@
               2.30666391765084
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c239_c2_crop"
+              "MMRR_07_gridc21_c239_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c239_c2_tfm"
+              "MMRR_07_gridc21_c239_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c246": {
+    "MMRR_07_gridc21_c246": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52152,17 +52152,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c246",
+            "name": "MMRR_07_gridc21_c246",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c246"
+              "MMRR_07_gridc21_c246"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c246_c1_crop": {
+    "MMRR_07_gridc21_c246_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52172,10 +52172,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c246_c1",
+            "name": "MMRR_07_gridc21_c246_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c246_c1_crop"
+              "MMRR_07_gridc21_c246_c1_crop"
             ]
           }
         }
@@ -52198,10 +52198,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c246_c1_tfm"
+              "MMRR_07_gridc21_c246_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c246"
+              "MMRR_07_gridc21_c246"
             ]
           }
         },
@@ -52218,17 +52218,17 @@
               -1.328267444372651
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c246_c1_crop"
+              "MMRR_07_gridc21_c246_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c246_c1_tfm"
+              "MMRR_07_gridc21_c246_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c249": {
+    "MMRR_07_gridc21_c249": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52238,17 +52238,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c249",
+            "name": "MMRR_07_gridc21_c249",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c249"
+              "MMRR_07_gridc21_c249"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c249_c1_crop": {
+    "MMRR_07_gridc21_c249_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52258,10 +52258,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c249_c1",
+            "name": "MMRR_07_gridc21_c249_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c249_c1_crop"
+              "MMRR_07_gridc21_c249_c1_crop"
             ]
           }
         }
@@ -52284,10 +52284,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c249_c1_tfm"
+              "MMRR_07_gridc21_c249_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c249"
+              "MMRR_07_gridc21_c249"
             ]
           }
         },
@@ -52304,17 +52304,17 @@
               -0.7273969967682061
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c249_c1_crop"
+              "MMRR_07_gridc21_c249_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c249_c1_tfm"
+              "MMRR_07_gridc21_c249_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c249_c2_crop": {
+    "MMRR_07_gridc21_c249_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52324,10 +52324,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c249_c2",
+            "name": "MMRR_07_gridc21_c249_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c249_c2_crop"
+              "MMRR_07_gridc21_c249_c2_crop"
             ]
           }
         }
@@ -52350,10 +52350,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c249_c2_tfm"
+              "MMRR_07_gridc21_c249_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c249"
+              "MMRR_07_gridc21_c249"
             ]
           }
         },
@@ -52370,17 +52370,17 @@
               -0.5379054961978965
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c249_c2_crop"
+              "MMRR_07_gridc21_c249_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c249_c2_tfm"
+              "MMRR_07_gridc21_c249_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c298": {
+    "MMRR_07_gridc21_c298": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52390,17 +52390,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c298",
+            "name": "MMRR_07_gridc21_c298",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c298"
+              "MMRR_07_gridc21_c298"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c298_c1_crop": {
+    "MMRR_07_gridc21_c298_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52410,10 +52410,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c298_c1",
+            "name": "MMRR_07_gridc21_c298_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c298_c1_crop"
+              "MMRR_07_gridc21_c298_c1_crop"
             ]
           }
         }
@@ -52436,10 +52436,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c298_c1_tfm"
+              "MMRR_07_gridc21_c298_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c298"
+              "MMRR_07_gridc21_c298"
             ]
           }
         },
@@ -52456,17 +52456,17 @@
               -0.3214162356392749
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c298_c1_crop"
+              "MMRR_07_gridc21_c298_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c298_c1_tfm"
+              "MMRR_07_gridc21_c298_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c298_c2_crop": {
+    "MMRR_07_gridc21_c298_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52476,10 +52476,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c298_c2",
+            "name": "MMRR_07_gridc21_c298_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c298_c2_crop"
+              "MMRR_07_gridc21_c298_c2_crop"
             ]
           }
         }
@@ -52502,10 +52502,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c298_c2_tfm"
+              "MMRR_07_gridc21_c298_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c298"
+              "MMRR_07_gridc21_c298"
             ]
           }
         },
@@ -52522,17 +52522,17 @@
               -2.5337389705106346
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c298_c2_crop"
+              "MMRR_07_gridc21_c298_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c298_c2_tfm"
+              "MMRR_07_gridc21_c298_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c299": {
+    "MMRR_07_gridc21_c299": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52542,17 +52542,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c299",
+            "name": "MMRR_07_gridc21_c299",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c299"
+              "MMRR_07_gridc21_c299"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c299_c1_crop": {
+    "MMRR_07_gridc21_c299_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52562,10 +52562,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c299_c1",
+            "name": "MMRR_07_gridc21_c299_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c299_c1_crop"
+              "MMRR_07_gridc21_c299_c1_crop"
             ]
           }
         }
@@ -52588,10 +52588,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c299_c1_tfm"
+              "MMRR_07_gridc21_c299_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c299"
+              "MMRR_07_gridc21_c299"
             ]
           }
         },
@@ -52608,17 +52608,17 @@
               -1.9900404423405367
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c299_c1_crop"
+              "MMRR_07_gridc21_c299_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c299_c1_tfm"
+              "MMRR_07_gridc21_c299_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c299_c2_crop": {
+    "MMRR_07_gridc21_c299_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52628,10 +52628,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c299_c2",
+            "name": "MMRR_07_gridc21_c299_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c299_c2_crop"
+              "MMRR_07_gridc21_c299_c2_crop"
             ]
           }
         }
@@ -52654,10 +52654,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c299_c2_tfm"
+              "MMRR_07_gridc21_c299_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c299"
+              "MMRR_07_gridc21_c299"
             ]
           }
         },
@@ -52674,17 +52674,17 @@
               -1.1121450143358027
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c299_c2_crop"
+              "MMRR_07_gridc21_c299_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c299_c2_tfm"
+              "MMRR_07_gridc21_c299_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c299_c3_crop": {
+    "MMRR_07_gridc21_c299_c3_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52694,10 +52694,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c299_c3",
+            "name": "MMRR_07_gridc21_c299_c3",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c299_c3_crop"
+              "MMRR_07_gridc21_c299_c3_crop"
             ]
           }
         }
@@ -52720,10 +52720,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c299_c3_tfm"
+              "MMRR_07_gridc21_c299_c3_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c299"
+              "MMRR_07_gridc21_c299"
             ]
           }
         },
@@ -52740,17 +52740,17 @@
               -0.3785847778776531
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c299_c3_crop"
+              "MMRR_07_gridc21_c299_c3_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c299_c3_tfm"
+              "MMRR_07_gridc21_c299_c3_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c301": {
+    "MMRR_07_gridc21_c301": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52760,17 +52760,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c301",
+            "name": "MMRR_07_gridc21_c301",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c301"
+              "MMRR_07_gridc21_c301"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c301_c1_crop": {
+    "MMRR_07_gridc21_c301_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52780,10 +52780,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c301_c1",
+            "name": "MMRR_07_gridc21_c301_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c301_c1_crop"
+              "MMRR_07_gridc21_c301_c1_crop"
             ]
           }
         }
@@ -52806,10 +52806,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c301_c1_tfm"
+              "MMRR_07_gridc21_c301_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c301"
+              "MMRR_07_gridc21_c301"
             ]
           }
         },
@@ -52826,17 +52826,17 @@
               -1.9123471270806354
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c301_c1_crop"
+              "MMRR_07_gridc21_c301_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c301_c1_tfm"
+              "MMRR_07_gridc21_c301_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c301_c2_crop": {
+    "MMRR_07_gridc21_c301_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52846,10 +52846,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c301_c2",
+            "name": "MMRR_07_gridc21_c301_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c301_c2_crop"
+              "MMRR_07_gridc21_c301_c2_crop"
             ]
           }
         }
@@ -52872,10 +52872,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c301_c2_tfm"
+              "MMRR_07_gridc21_c301_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c301"
+              "MMRR_07_gridc21_c301"
             ]
           }
         },
@@ -52892,17 +52892,17 @@
               -1.860359493751552
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c301_c2_crop"
+              "MMRR_07_gridc21_c301_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c301_c2_tfm"
+              "MMRR_07_gridc21_c301_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c308": {
+    "MMRR_07_gridc21_c308": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52912,17 +52912,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c308",
+            "name": "MMRR_07_gridc21_c308",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c308"
+              "MMRR_07_gridc21_c308"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c308_c1_crop": {
+    "MMRR_07_gridc21_c308_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52932,10 +52932,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c308_c1",
+            "name": "MMRR_07_gridc21_c308_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c308_c1_crop"
+              "MMRR_07_gridc21_c308_c1_crop"
             ]
           }
         }
@@ -52958,10 +52958,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c308_c1_tfm"
+              "MMRR_07_gridc21_c308_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c308"
+              "MMRR_07_gridc21_c308"
             ]
           }
         },
@@ -52978,17 +52978,17 @@
               -0.29173408412470875
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c308_c1_crop"
+              "MMRR_07_gridc21_c308_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c308_c1_tfm"
+              "MMRR_07_gridc21_c308_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c328": {
+    "MMRR_07_gridc21_c328": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -52998,17 +52998,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c328",
+            "name": "MMRR_07_gridc21_c328",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c328"
+              "MMRR_07_gridc21_c328"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c328_c1_crop": {
+    "MMRR_07_gridc21_c328_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53018,10 +53018,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c328_c1",
+            "name": "MMRR_07_gridc21_c328_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c328_c1_crop"
+              "MMRR_07_gridc21_c328_c1_crop"
             ]
           }
         }
@@ -53044,10 +53044,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c328_c1_tfm"
+              "MMRR_07_gridc21_c328_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c328"
+              "MMRR_07_gridc21_c328"
             ]
           }
         },
@@ -53064,17 +53064,17 @@
               -0.359934996835633
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c328_c1_crop"
+              "MMRR_07_gridc21_c328_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c328_c1_tfm"
+              "MMRR_07_gridc21_c328_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c328_c2_crop": {
+    "MMRR_07_gridc21_c328_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53084,10 +53084,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c328_c2",
+            "name": "MMRR_07_gridc21_c328_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c328_c2_crop"
+              "MMRR_07_gridc21_c328_c2_crop"
             ]
           }
         }
@@ -53110,10 +53110,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c328_c2_tfm"
+              "MMRR_07_gridc21_c328_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c328"
+              "MMRR_07_gridc21_c328"
             ]
           }
         },
@@ -53130,17 +53130,17 @@
               0.5581907426349602
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c328_c2_crop"
+              "MMRR_07_gridc21_c328_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c328_c2_tfm"
+              "MMRR_07_gridc21_c328_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c350": {
+    "MMRR_07_gridc21_c350": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53150,17 +53150,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c350",
+            "name": "MMRR_07_gridc21_c350",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c350"
+              "MMRR_07_gridc21_c350"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c350_c1_crop": {
+    "MMRR_07_gridc21_c350_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53170,10 +53170,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c350_c1",
+            "name": "MMRR_07_gridc21_c350_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c350_c1_crop"
+              "MMRR_07_gridc21_c350_c1_crop"
             ]
           }
         }
@@ -53196,10 +53196,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c350_c1_tfm"
+              "MMRR_07_gridc21_c350_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c350"
+              "MMRR_07_gridc21_c350"
             ]
           }
         },
@@ -53216,17 +53216,17 @@
               -0.08725847691502742
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c350_c1_crop"
+              "MMRR_07_gridc21_c350_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c350_c1_tfm"
+              "MMRR_07_gridc21_c350_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c354": {
+    "MMRR_07_gridc21_c354": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53236,17 +53236,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c354",
+            "name": "MMRR_07_gridc21_c354",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c354"
+              "MMRR_07_gridc21_c354"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c354_c1_crop": {
+    "MMRR_07_gridc21_c354_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53256,10 +53256,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c354_c1",
+            "name": "MMRR_07_gridc21_c354_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c354_c1_crop"
+              "MMRR_07_gridc21_c354_c1_crop"
             ]
           }
         }
@@ -53282,10 +53282,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c354_c1_tfm"
+              "MMRR_07_gridc21_c354_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c354"
+              "MMRR_07_gridc21_c354"
             ]
           }
         },
@@ -53302,17 +53302,17 @@
               -1.801810803776962
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c354_c1_crop"
+              "MMRR_07_gridc21_c354_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c354_c1_tfm"
+              "MMRR_07_gridc21_c354_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c354_c2_crop": {
+    "MMRR_07_gridc21_c354_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53322,10 +53322,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c354_c2",
+            "name": "MMRR_07_gridc21_c354_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c354_c2_crop"
+              "MMRR_07_gridc21_c354_c2_crop"
             ]
           }
         }
@@ -53348,10 +53348,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c354_c2_tfm"
+              "MMRR_07_gridc21_c354_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c354"
+              "MMRR_07_gridc21_c354"
             ]
           }
         },
@@ -53368,17 +53368,17 @@
               1.3461254149937745
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c354_c2_crop"
+              "MMRR_07_gridc21_c354_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c354_c2_tfm"
+              "MMRR_07_gridc21_c354_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c377": {
+    "MMRR_07_gridc21_c377": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53388,17 +53388,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c377",
+            "name": "MMRR_07_gridc21_c377",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c377"
+              "MMRR_07_gridc21_c377"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c377_c1_crop": {
+    "MMRR_07_gridc21_c377_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53408,10 +53408,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c377_c1",
+            "name": "MMRR_07_gridc21_c377_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c377_c1_crop"
+              "MMRR_07_gridc21_c377_c1_crop"
             ]
           }
         }
@@ -53434,10 +53434,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c377_c1_tfm"
+              "MMRR_07_gridc21_c377_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c377"
+              "MMRR_07_gridc21_c377"
             ]
           }
         },
@@ -53454,17 +53454,17 @@
               0.6897709133912318
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c377_c1_crop"
+              "MMRR_07_gridc21_c377_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c377_c1_tfm"
+              "MMRR_07_gridc21_c377_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c377_c2_crop": {
+    "MMRR_07_gridc21_c377_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53474,10 +53474,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c377_c2",
+            "name": "MMRR_07_gridc21_c377_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c377_c2_crop"
+              "MMRR_07_gridc21_c377_c2_crop"
             ]
           }
         }
@@ -53500,10 +53500,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c377_c2_tfm"
+              "MMRR_07_gridc21_c377_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c377"
+              "MMRR_07_gridc21_c377"
             ]
           }
         },
@@ -53520,17 +53520,17 @@
               1.384286916154
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c377_c2_crop"
+              "MMRR_07_gridc21_c377_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c377_c2_tfm"
+              "MMRR_07_gridc21_c377_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c396": {
+    "MMRR_07_gridc21_c396": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53540,17 +53540,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c396",
+            "name": "MMRR_07_gridc21_c396",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c396"
+              "MMRR_07_gridc21_c396"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c396_c1_crop": {
+    "MMRR_07_gridc21_c396_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53560,10 +53560,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c396_c1",
+            "name": "MMRR_07_gridc21_c396_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c396_c1_crop"
+              "MMRR_07_gridc21_c396_c1_crop"
             ]
           }
         }
@@ -53586,10 +53586,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c396_c1_tfm"
+              "MMRR_07_gridc21_c396_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c396"
+              "MMRR_07_gridc21_c396"
             ]
           }
         },
@@ -53606,17 +53606,17 @@
               0.3582143814615377
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c396_c1_crop"
+              "MMRR_07_gridc21_c396_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c396_c1_tfm"
+              "MMRR_07_gridc21_c396_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c396_c2_crop": {
+    "MMRR_07_gridc21_c396_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53626,10 +53626,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c396_c2",
+            "name": "MMRR_07_gridc21_c396_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c396_c2_crop"
+              "MMRR_07_gridc21_c396_c2_crop"
             ]
           }
         }
@@ -53652,10 +53652,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c396_c2_tfm"
+              "MMRR_07_gridc21_c396_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c396"
+              "MMRR_07_gridc21_c396"
             ]
           }
         },
@@ -53672,17 +53672,17 @@
               0.11775857555441482
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c396_c2_crop"
+              "MMRR_07_gridc21_c396_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c396_c2_tfm"
+              "MMRR_07_gridc21_c396_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c404": {
+    "MMRR_07_gridc21_c404": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53692,17 +53692,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c404",
+            "name": "MMRR_07_gridc21_c404",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c404"
+              "MMRR_07_gridc21_c404"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c404_c1_crop": {
+    "MMRR_07_gridc21_c404_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53712,10 +53712,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c404_c1",
+            "name": "MMRR_07_gridc21_c404_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c404_c1_crop"
+              "MMRR_07_gridc21_c404_c1_crop"
             ]
           }
         }
@@ -53738,10 +53738,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c404_c1_tfm"
+              "MMRR_07_gridc21_c404_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c404"
+              "MMRR_07_gridc21_c404"
             ]
           }
         },
@@ -53758,17 +53758,17 @@
               -0.16139963814106423
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c404_c1_crop"
+              "MMRR_07_gridc21_c404_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c404_c1_tfm"
+              "MMRR_07_gridc21_c404_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c404_c2_crop": {
+    "MMRR_07_gridc21_c404_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53778,10 +53778,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c404_c2",
+            "name": "MMRR_07_gridc21_c404_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c404_c2_crop"
+              "MMRR_07_gridc21_c404_c2_crop"
             ]
           }
         }
@@ -53804,10 +53804,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c404_c2_tfm"
+              "MMRR_07_gridc21_c404_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c404"
+              "MMRR_07_gridc21_c404"
             ]
           }
         },
@@ -53824,17 +53824,17 @@
               0.8539735395240777
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c404_c2_crop"
+              "MMRR_07_gridc21_c404_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c404_c2_tfm"
+              "MMRR_07_gridc21_c404_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c410": {
+    "MMRR_07_gridc21_c410": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53844,17 +53844,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c410",
+            "name": "MMRR_07_gridc21_c410",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c410"
+              "MMRR_07_gridc21_c410"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c410_c1_crop": {
+    "MMRR_07_gridc21_c410_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53864,10 +53864,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c410_c1",
+            "name": "MMRR_07_gridc21_c410_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c410_c1_crop"
+              "MMRR_07_gridc21_c410_c1_crop"
             ]
           }
         }
@@ -53890,10 +53890,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c410_c1_tfm"
+              "MMRR_07_gridc21_c410_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c410"
+              "MMRR_07_gridc21_c410"
             ]
           }
         },
@@ -53910,17 +53910,17 @@
               -1.7044467865133135
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c410_c1_crop"
+              "MMRR_07_gridc21_c410_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c410_c1_tfm"
+              "MMRR_07_gridc21_c410_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c410_c2_crop": {
+    "MMRR_07_gridc21_c410_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53930,10 +53930,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c410_c2",
+            "name": "MMRR_07_gridc21_c410_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c410_c2_crop"
+              "MMRR_07_gridc21_c410_c2_crop"
             ]
           }
         }
@@ -53956,10 +53956,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c410_c2_tfm"
+              "MMRR_07_gridc21_c410_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c410"
+              "MMRR_07_gridc21_c410"
             ]
           }
         },
@@ -53976,17 +53976,17 @@
               -1.2403600322210506
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c410_c2_crop"
+              "MMRR_07_gridc21_c410_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c410_c2_tfm"
+              "MMRR_07_gridc21_c410_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c429": {
+    "MMRR_07_gridc21_c429": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -53996,17 +53996,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c429",
+            "name": "MMRR_07_gridc21_c429",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c429"
+              "MMRR_07_gridc21_c429"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c429_c1_crop": {
+    "MMRR_07_gridc21_c429_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54016,10 +54016,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c429_c1",
+            "name": "MMRR_07_gridc21_c429_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c429_c1_crop"
+              "MMRR_07_gridc21_c429_c1_crop"
             ]
           }
         }
@@ -54042,10 +54042,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c429_c1_tfm"
+              "MMRR_07_gridc21_c429_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c429"
+              "MMRR_07_gridc21_c429"
             ]
           }
         },
@@ -54062,17 +54062,17 @@
               -1.6798445894488745
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c429_c1_crop"
+              "MMRR_07_gridc21_c429_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c429_c1_tfm"
+              "MMRR_07_gridc21_c429_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c429_c2_crop": {
+    "MMRR_07_gridc21_c429_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54082,10 +54082,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c429_c2",
+            "name": "MMRR_07_gridc21_c429_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c429_c2_crop"
+              "MMRR_07_gridc21_c429_c2_crop"
             ]
           }
         }
@@ -54108,10 +54108,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c429_c2_tfm"
+              "MMRR_07_gridc21_c429_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c429"
+              "MMRR_07_gridc21_c429"
             ]
           }
         },
@@ -54128,17 +54128,17 @@
               -0.33175759925842285
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c429_c2_crop"
+              "MMRR_07_gridc21_c429_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c429_c2_tfm"
+              "MMRR_07_gridc21_c429_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c452": {
+    "MMRR_07_gridc21_c452": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54148,17 +54148,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c452",
+            "name": "MMRR_07_gridc21_c452",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c452"
+              "MMRR_07_gridc21_c452"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c452_c1_crop": {
+    "MMRR_07_gridc21_c452_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54168,10 +54168,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c452_c1",
+            "name": "MMRR_07_gridc21_c452_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c452_c1_crop"
+              "MMRR_07_gridc21_c452_c1_crop"
             ]
           }
         }
@@ -54194,10 +54194,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c452_c1_tfm"
+              "MMRR_07_gridc21_c452_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c452"
+              "MMRR_07_gridc21_c452"
             ]
           }
         },
@@ -54214,17 +54214,17 @@
               -0.24452079887390138
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c452_c1_crop"
+              "MMRR_07_gridc21_c452_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c452_c1_tfm"
+              "MMRR_07_gridc21_c452_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c452_c2_crop": {
+    "MMRR_07_gridc21_c452_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54234,10 +54234,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c452_c2",
+            "name": "MMRR_07_gridc21_c452_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c452_c2_crop"
+              "MMRR_07_gridc21_c452_c2_crop"
             ]
           }
         }
@@ -54260,10 +54260,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c452_c2_tfm"
+              "MMRR_07_gridc21_c452_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c452"
+              "MMRR_07_gridc21_c452"
             ]
           }
         },
@@ -54280,17 +54280,17 @@
               -1.9875445231581947
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c452_c2_crop"
+              "MMRR_07_gridc21_c452_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c452_c2_tfm"
+              "MMRR_07_gridc21_c452_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c460": {
+    "MMRR_07_gridc21_c460": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54300,17 +54300,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c460",
+            "name": "MMRR_07_gridc21_c460",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c460"
+              "MMRR_07_gridc21_c460"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c460_c1_crop": {
+    "MMRR_07_gridc21_c460_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54320,10 +54320,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c460_c1",
+            "name": "MMRR_07_gridc21_c460_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c460_c1_crop"
+              "MMRR_07_gridc21_c460_c1_crop"
             ]
           }
         }
@@ -54346,10 +54346,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c460_c1_tfm"
+              "MMRR_07_gridc21_c460_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c460"
+              "MMRR_07_gridc21_c460"
             ]
           }
         },
@@ -54366,17 +54366,17 @@
               1.6410155635564498
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c460_c1_crop"
+              "MMRR_07_gridc21_c460_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c460_c1_tfm"
+              "MMRR_07_gridc21_c460_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c460_c2_crop": {
+    "MMRR_07_gridc21_c460_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54386,10 +54386,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c460_c2",
+            "name": "MMRR_07_gridc21_c460_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c460_c2_crop"
+              "MMRR_07_gridc21_c460_c2_crop"
             ]
           }
         }
@@ -54412,10 +54412,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c460_c2_tfm"
+              "MMRR_07_gridc21_c460_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c460"
+              "MMRR_07_gridc21_c460"
             ]
           }
         },
@@ -54432,17 +54432,17 @@
               -1.6983191475337833
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c460_c2_crop"
+              "MMRR_07_gridc21_c460_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c460_c2_tfm"
+              "MMRR_07_gridc21_c460_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c506": {
+    "MMRR_07_gridc21_c506": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54452,17 +54452,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c506",
+            "name": "MMRR_07_gridc21_c506",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c506"
+              "MMRR_07_gridc21_c506"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c506_c1_crop": {
+    "MMRR_07_gridc21_c506_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54472,10 +54472,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c506_c1",
+            "name": "MMRR_07_gridc21_c506_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c506_c1_crop"
+              "MMRR_07_gridc21_c506_c1_crop"
             ]
           }
         }
@@ -54498,10 +54498,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c506_c1_tfm"
+              "MMRR_07_gridc21_c506_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c506"
+              "MMRR_07_gridc21_c506"
             ]
           }
         },
@@ -54518,17 +54518,17 @@
               -0.4630881153706367
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c506_c1_crop"
+              "MMRR_07_gridc21_c506_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c506_c1_tfm"
+              "MMRR_07_gridc21_c506_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c506_c2_crop": {
+    "MMRR_07_gridc21_c506_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54538,10 +54538,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c506_c2",
+            "name": "MMRR_07_gridc21_c506_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c506_c2_crop"
+              "MMRR_07_gridc21_c506_c2_crop"
             ]
           }
         }
@@ -54564,10 +54564,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c506_c2_tfm"
+              "MMRR_07_gridc21_c506_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c506"
+              "MMRR_07_gridc21_c506"
             ]
           }
         },
@@ -54584,17 +54584,17 @@
               -0.5
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c506_c2_crop"
+              "MMRR_07_gridc21_c506_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c506_c2_tfm"
+              "MMRR_07_gridc21_c506_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c506_c3_crop": {
+    "MMRR_07_gridc21_c506_c3_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54604,10 +54604,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c506_c3",
+            "name": "MMRR_07_gridc21_c506_c3",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c506_c3_crop"
+              "MMRR_07_gridc21_c506_c3_crop"
             ]
           }
         }
@@ -54630,10 +54630,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c506_c3_tfm"
+              "MMRR_07_gridc21_c506_c3_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c506"
+              "MMRR_07_gridc21_c506"
             ]
           }
         },
@@ -54650,17 +54650,17 @@
               1.2779184492451068
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c506_c3_crop"
+              "MMRR_07_gridc21_c506_c3_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c506_c3_tfm"
+              "MMRR_07_gridc21_c506_c3_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c510": {
+    "MMRR_07_gridc21_c510": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54670,17 +54670,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c510",
+            "name": "MMRR_07_gridc21_c510",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c510"
+              "MMRR_07_gridc21_c510"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c510_c1_crop": {
+    "MMRR_07_gridc21_c510_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54690,10 +54690,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c510_c1",
+            "name": "MMRR_07_gridc21_c510_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c510_c1_crop"
+              "MMRR_07_gridc21_c510_c1_crop"
             ]
           }
         }
@@ -54716,10 +54716,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c510_c1_tfm"
+              "MMRR_07_gridc21_c510_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c510"
+              "MMRR_07_gridc21_c510"
             ]
           }
         },
@@ -54736,17 +54736,17 @@
               -1.2966794232494474
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c510_c1_crop"
+              "MMRR_07_gridc21_c510_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c510_c1_tfm"
+              "MMRR_07_gridc21_c510_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c510_c2_crop": {
+    "MMRR_07_gridc21_c510_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54756,10 +54756,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c510_c2",
+            "name": "MMRR_07_gridc21_c510_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c510_c2_crop"
+              "MMRR_07_gridc21_c510_c2_crop"
             ]
           }
         }
@@ -54782,10 +54782,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c510_c2_tfm"
+              "MMRR_07_gridc21_c510_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c510"
+              "MMRR_07_gridc21_c510"
             ]
           }
         },
@@ -54802,17 +54802,17 @@
               -1.3717362187519755
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c510_c2_crop"
+              "MMRR_07_gridc21_c510_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c510_c2_tfm"
+              "MMRR_07_gridc21_c510_c2_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c511": {
+    "MMRR_07_gridc21_c511": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54822,17 +54822,17 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c511",
+            "name": "MMRR_07_gridc21_c511",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c511"
+              "MMRR_07_gridc21_c511"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Tomograms"
     },
-    "MMRR_07_gridC21_c511_c1_crop": {
+    "MMRR_07_gridc21_c511_c1_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54842,10 +54842,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c511_c1",
+            "name": "MMRR_07_gridc21_c511_c1",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c511_c1_crop"
+              "MMRR_07_gridc21_c511_c1_crop"
             ]
           }
         }
@@ -54868,10 +54868,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c511_c1_tfm"
+              "MMRR_07_gridc21_c511_c1_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c511"
+              "MMRR_07_gridc21_c511"
             ]
           }
         },
@@ -54888,17 +54888,17 @@
               -0.1404111025903037
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c511_c1_crop"
+              "MMRR_07_gridc21_c511_c1_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c511_c1_tfm"
+              "MMRR_07_gridc21_c511_c1_tfm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_07_gridC21_c511_c2_crop": {
+    "MMRR_07_gridc21_c511_c2_crop": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -54908,10 +54908,10 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_07_gridC21_c511_c2",
+            "name": "MMRR_07_gridc21_c511_c2",
             "opacity": 1.0,
             "sources": [
-              "MMRR_07_gridC21_c511_c2_crop"
+              "MMRR_07_gridc21_c511_c2_crop"
             ]
           }
         }
@@ -54934,10 +54934,10 @@
               0.0
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c511_c2_tfm"
+              "MMRR_07_gridc21_c511_c2_tfm"
             ],
             "sources": [
-              "MMRR_07_gridC21_c511"
+              "MMRR_07_gridc21_c511"
             ]
           }
         },
@@ -54954,10 +54954,10 @@
               -0.11662335922515982
             ],
             "sourceNamesAfterTransform": [
-              "MMRR_07_gridC21_c511_c2_crop"
+              "MMRR_07_gridc21_c511_c2_crop"
             ],
             "sources": [
-              "MMRR_07_gridC21_c511_c2_tfm"
+              "MMRR_07_gridc21_c511_c2_tfm"
             ]
           }
         }
