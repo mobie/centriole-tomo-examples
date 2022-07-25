@@ -94,7 +94,7 @@ def mobieconvert(infile):
         print('Skipping ' + base + '. Already found converted data.')
 
 
-with Pool(12) as p:
+with Pool(25) as p:
     p.map(mobieconvert, joinlist)
 
 
