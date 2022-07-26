@@ -15,6 +15,8 @@ import mobie
 import glob
 from multiprocessing import Pool
 
+maxsleep = 90
+par_jobs = 1
 
 target='slurm'
 
@@ -40,7 +42,7 @@ def mobieconvert(infile):
     # skip empty lines
     if len(infile)<3: return
 
-    sleeptime = int(random.random()*90)
+    sleeptime = int(random.random()*maxsleep)
 
     base = os.path.basename(infile).split('_join')[0]
 
@@ -94,7 +96,7 @@ def mobieconvert(infile):
         print('Skipping ' + base + '. Already found converted data.')
 
 
-with Pool(25) as p:
+with Pool(par_jobs) as p:
     p.map(mobieconvert, joinlist)
 
 
