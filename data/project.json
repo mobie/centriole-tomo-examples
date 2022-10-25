@@ -3,9 +3,5 @@
     "tomo"
   ],
   "defaultDataset": "tomo",
-  "imageDataFormats": [
-    "ome.zarr",
-    "ome.zarr.s3"
-  ],
-  "specVersion": "0.2.0"
+  "specVersion": "0.3.0"
 }
